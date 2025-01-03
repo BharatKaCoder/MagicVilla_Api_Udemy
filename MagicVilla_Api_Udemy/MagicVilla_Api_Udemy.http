@@ -1,0 +1,6 @@
+@MagicVilla_Api_Udemy_HostAddress = http://localhost:5036
+
+GET {{MagicVilla_Api_Udemy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
