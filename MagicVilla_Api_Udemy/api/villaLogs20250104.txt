@@ -236,3 +236,276 @@ System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport 
 2025-01-04 21:09:58.024 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.VillaApiController.GetVillas (MagicVilla_Api_Udemy) in 26.407ms
 2025-01-04 21:09:58.024 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.VillaApiController.GetVillas (MagicVilla_Api_Udemy)'
 2025-01-04 21:09:58.025 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7029/api/villaapi - 200 null application/json; charset=utf-8 75.6075ms
+2025-01-04 21:53:34.365 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-01-04 21:53:35.320 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-04 21:53:37.978 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-04 21:53:54.518 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-01-04 21:53:55.651 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-04 21:53:55.765 +05:30 [DBG] Creating DbConnection.
+2025-01-04 21:53:56.666 +05:30 [DBG] Created DbConnection. (900ms).
+2025-01-04 21:53:56.669 +05:30 [DBG] Migrating using database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:56.679 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:57.909 +05:30 [DBG] An error occurred using the connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:57.910 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:57.911 +05:30 [DBG] An error occurred using the connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:57.972 +05:30 [DBG] Creating DbConnection.
+2025-01-04 21:53:57.973 +05:30 [DBG] Created DbConnection. (0ms).
+2025-01-04 21:53:57.973 +05:30 [DBG] Opening connection to database 'master' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:58.000 +05:30 [DBG] Opened connection to database 'master' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:58.005 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-04 21:53:58.015 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2025-01-04 21:53:58.016 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (13ms).
+2025-01-04 21:53:58.033 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [VillaApiUdemy];
+2025-01-04 21:53:58.574 +05:30 [INF] Executed DbCommand (544ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [VillaApiUdemy];
+2025-01-04 21:53:58.575 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-04 21:53:58.576 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 21:53:58.576 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 21:53:58.576 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [VillaApiUdemy] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-01-04 21:53:58.983 +05:30 [INF] Executed DbCommand (408ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [VillaApiUdemy] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-01-04 21:53:58.985 +05:30 [DBG] Closing connection to database 'master' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.002 +05:30 [DBG] Closed connection to database 'master' on server 'DESKTOP-EH14T7V' (9ms).
+2025-01-04 21:53:59.007 +05:30 [DBG] Disposing connection to database 'master' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.009 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-01-04 21:53:59.009 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.045 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.046 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-04 21:53:59.046 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 21:53:59.046 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 21:53:59.046 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-04 21:53:59.056 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-04 21:53:59.056 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.056 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-04 21:53:59.157 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-04 21:53:59.158 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 21:53:59.158 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 21:53:59.158 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.159 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.159 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-01-04 21:53:59.168 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-01-04 21:53:59.168 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.168 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-04 21:53:59.170 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.170 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.170 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-04 21:53:59.170 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 21:53:59.170 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 21:53:59.170 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-04 21:53:59.171 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-04 21:53:59.171 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.171 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-04 21:53:59.174 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-01-04 21:53:59.174 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-01-04 21:53:59.174 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-01-04 21:53:59.174 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.175 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.175 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-04 21:53:59.201 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-04 21:53:59.201 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.202 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-04 21:53:59.204 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.205 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.205 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-04 21:53:59.205 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-04 21:53:59.205 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-04 21:53:59.205 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-04 21:53:59.219 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-04 21:53:59.222 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.224 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 2ms reading results.
+2025-01-04 21:53:59.224 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.224 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-04 21:53:59.279 +05:30 [INF] Applying migration '20250104162337_AddVillaTable'.
+2025-01-04 21:53:59.304 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.304 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.307 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-01-04 21:53:59.313 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2025-01-04 21:53:59.314 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-04 21:53:59.314 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 21:53:59.316 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2025-01-04 21:53:59.316 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [VillasTable] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [Rate] float NOT NULL,
+    [SqFt] int NOT NULL,
+    [ImageUrl] nvarchar(max) NOT NULL,
+    [Amenity] nvarchar(max) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [UpdatedAt] datetime2 NOT NULL,
+    CONSTRAINT [PK_VillasTable] PRIMARY KEY ([Id])
+);
+2025-01-04 21:53:59.320 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [VillasTable] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [Rate] float NOT NULL,
+    [SqFt] int NOT NULL,
+    [ImageUrl] nvarchar(max) NOT NULL,
+    [Amenity] nvarchar(max) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [UpdatedAt] datetime2 NOT NULL,
+    CONSTRAINT [PK_VillasTable] PRIMARY KEY ([Id])
+);
+2025-01-04 21:53:59.321 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-04 21:53:59.321 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 21:53:59.321 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 21:53:59.321 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250104162337_AddVillaTable', N'8.0.0');
+2025-01-04 21:53:59.328 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250104162337_AddVillaTable', N'8.0.0');
+2025-01-04 21:53:59.330 +05:30 [DBG] Committing transaction.
+2025-01-04 21:53:59.334 +05:30 [DBG] Committed transaction.
+2025-01-04 21:53:59.335 +05:30 [DBG] Disposing transaction.
+2025-01-04 21:53:59.335 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.335 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-04 21:53:59.337 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-04 21:53:59.338 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 21:53:59.338 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-01-04 22:23:10.170 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-01-04 22:23:10.708 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-04 22:23:11.894 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-04 22:23:21.069 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-01-04 22:23:21.833 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-04 22:23:21.867 +05:30 [DBG] Creating DbConnection.
+2025-01-04 22:23:22.027 +05:30 [DBG] Created DbConnection. (156ms).
+2025-01-04 22:23:22.031 +05:30 [DBG] Migrating using database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.042 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.477 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.483 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-04 22:23:22.488 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-01-04 22:23:22.489 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2025-01-04 22:23:22.495 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-04 22:23:22.522 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-04 22:23:22.524 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.530 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (4ms).
+2025-01-04 22:23:22.533 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-01-04 22:23:22.533 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-01-04 22:23:22.533 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-01-04 22:23:22.533 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.534 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.534 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-04 22:23:22.550 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-04 22:23:22.550 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.551 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-04 22:23:22.551 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.552 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.552 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-04 22:23:22.552 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 22:23:22.552 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 22:23:22.552 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-04 22:23:22.553 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-04 22:23:22.553 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.553 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-04 22:23:22.553 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-01-04 22:23:22.553 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-01-04 22:23:22.553 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-01-04 22:23:22.553 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.554 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.554 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-04 22:23:22.555 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-04 22:23:22.555 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.555 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-04 22:23:22.580 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.580 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.580 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-04 22:23:22.580 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-04 22:23:22.580 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-04 22:23:22.581 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-04 22:23:22.588 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-04 22:23:22.591 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.592 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 2ms reading results.
+2025-01-04 22:23:22.593 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.593 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-04 22:23:22.605 +05:30 [INF] Applying migration '20250104165311_SeedVillTable'.
+2025-01-04 22:23:22.644 +05:30 [DBG] Executing 3 update commands as a batch.
+2025-01-04 22:23:22.654 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.655 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.656 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-01-04 22:23:22.663 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2025-01-04 22:23:22.664 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-04 22:23:22.664 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 22:23:22.665 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2025-01-04 22:23:22.665 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedAt', N'Description', N'ImageUrl', N'Name', N'Rate', N'SqFt', N'UpdatedAt') AND [object_id] = OBJECT_ID(N'[VillasTable]'))
+    SET IDENTITY_INSERT [VillasTable] ON;
+INSERT INTO [VillasTable] ([Id], [Amenity], [CreatedAt], [Description], [ImageUrl], [Name], [Rate], [SqFt], [UpdatedAt])
+VALUES (1, N'Pool, WiFi, Parking', '2025-01-04T22:23:10.7245442+05:30', N'A beautiful villa with a stunning ocean view, perfect for a relaxing getaway.', N'https://example.com/images/oceanviewvilla.jpg', N'Ocean View Villa', 250.5E0, 2000, '2025-01-04T22:23:10.7245454+05:30'),
+(2, N'Fireplace, Hot Tub, WiFi', '2025-01-04T22:23:10.7245457+05:30', N'A cozy retreat in the mountains, ideal for nature lovers and adventure seekers.', N'https://example.com/images/mountainretreat.jpg', N'Mountain Retreat', 180.75E0, 1500, '2025-01-04T22:23:10.7245458+05:30'),
+(3, N'Gym, Elevator, WiFi', '2025-01-04T22:23:10.7245459+05:30', N'A modern loft in the heart of the city with easy access to all major attractions.', N'https://example.com/images/cityloft.jpg', N'City Loft', 300.0E0, 1200, '2025-01-04T22:23:10.7245460+05:30');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedAt', N'Description', N'ImageUrl', N'Name', N'Rate', N'SqFt', N'UpdatedAt') AND [object_id] = OBJECT_ID(N'[VillasTable]'))
+    SET IDENTITY_INSERT [VillasTable] OFF;
+2025-01-04 22:23:22.720 +05:30 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedAt', N'Description', N'ImageUrl', N'Name', N'Rate', N'SqFt', N'UpdatedAt') AND [object_id] = OBJECT_ID(N'[VillasTable]'))
+    SET IDENTITY_INSERT [VillasTable] ON;
+INSERT INTO [VillasTable] ([Id], [Amenity], [CreatedAt], [Description], [ImageUrl], [Name], [Rate], [SqFt], [UpdatedAt])
+VALUES (1, N'Pool, WiFi, Parking', '2025-01-04T22:23:10.7245442+05:30', N'A beautiful villa with a stunning ocean view, perfect for a relaxing getaway.', N'https://example.com/images/oceanviewvilla.jpg', N'Ocean View Villa', 250.5E0, 2000, '2025-01-04T22:23:10.7245454+05:30'),
+(2, N'Fireplace, Hot Tub, WiFi', '2025-01-04T22:23:10.7245457+05:30', N'A cozy retreat in the mountains, ideal for nature lovers and adventure seekers.', N'https://example.com/images/mountainretreat.jpg', N'Mountain Retreat', 180.75E0, 1500, '2025-01-04T22:23:10.7245458+05:30'),
+(3, N'Gym, Elevator, WiFi', '2025-01-04T22:23:10.7245459+05:30', N'A modern loft in the heart of the city with easy access to all major attractions.', N'https://example.com/images/cityloft.jpg', N'City Loft', 300.0E0, 1200, '2025-01-04T22:23:10.7245460+05:30');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedAt', N'Description', N'ImageUrl', N'Name', N'Rate', N'SqFt', N'UpdatedAt') AND [object_id] = OBJECT_ID(N'[VillasTable]'))
+    SET IDENTITY_INSERT [VillasTable] OFF;
+2025-01-04 22:23:22.720 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-04 22:23:22.720 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 22:23:22.720 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-04 22:23:22.720 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250104165311_SeedVillTable', N'8.0.0');
+2025-01-04 22:23:22.723 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250104165311_SeedVillTable', N'8.0.0');
+2025-01-04 22:23:22.724 +05:30 [DBG] Committing transaction.
+2025-01-04 22:23:22.728 +05:30 [DBG] Committed transaction.
+2025-01-04 22:23:22.729 +05:30 [DBG] Disposing transaction.
+2025-01-04 22:23:22.729 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.729 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-04 22:23:22.731 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-04 22:23:22.733 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-04 22:23:22.734 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
