@@ -22,10 +22,10 @@ namespace MagicVilla_Api_Udemy.Controllers
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)] // This is response types
-        public ActionResult <IEnumerable<VillaDTO>> GetVillas() 
+        public async Task<ActionResult <IEnumerable<VillaDTO>>> GetVillas() 
         {
             logger.LogInformation("Getting All Villas");
-            return Ok(_dbContext.VillasTable);
+            return Ok(await _dbContext.VillasTable.ToListAsync());
 
         }
 
@@ -33,13 +33,13 @@ namespace MagicVilla_Api_Udemy.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)] // This is response types
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<IEnumerable<VillaDTO>> GetVillasById(int id)
+        public async Task<ActionResult<IEnumerable<VillaDTO>>> GetVillasById(int id)
         {
             if (id == 0)
             {
                 return BadRequest();
             }
-            var Villas = _dbContext.VillasTable.FirstOrDefault(x => x.Id == id);
+            var Villas = await _dbContext.VillasTable.FirstOrDefaultAsync(x => x.Id == id);
             if (Villas == null) 
             { 
                 return NotFound();
@@ -52,9 +52,10 @@ namespace MagicVilla_Api_Udemy.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
 
-        public ActionResult<VillaDTO> CreateVilla([FromBody] VillaCreateDTO villaDTO)
+        public async Task <ActionResult<VillaDTO>> CreateVilla([FromBody] VillaCreateDTO villaDTO)
         {
-            if (_dbContext.VillasTable.FirstOrDefault(u => u.Name.ToLower() == villaDTO.Name.ToLower()) != null)
+            var villsList = await _dbContext.VillasTable.FirstOrDefaultAsync(u => u.Name.ToLower() == villaDTO.Name.ToLower()) != null;
+            if (villsList)
             {
                 ModelState.AddModelError("CustomError", "Villa already exist!");
                 return BadRequest(ModelState);
@@ -79,8 +80,8 @@ namespace MagicVilla_Api_Udemy.Controllers
                 CreatedAt = DateTime.Now,
                 UpdatedAt = DateTime.Now
             };
-            _dbContext.VillasTable.Add(Model);
-            _dbContext.SaveChanges();   
+            await _dbContext.VillasTable.AddAsync(Model);
+            await _dbContext.SaveChangesAsync();   
             return CreatedAtRoute("GetVilla", new { id = Model.Id }, Model);
         }
     }
