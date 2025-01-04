@@ -1,5 +1,7 @@
 ﻿using MagicVilla_Api_Udemy.Models;
+using MagicVilla_Api_Udemy.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace MagicVilla_Api_Udemy.Controllers
 {
@@ -9,21 +11,40 @@ namespace MagicVilla_Api_Udemy.Controllers
     public class VillaApiController : ControllerBase
     {
         private readonly ILogger<VillaApiController> logger;
-        public VillaApiController(ILogger<VillaApiController> _logger)
+        private readonly ApplicationDbContext _dbContext;
+
+        public VillaApiController(ILogger<VillaApiController> _logger, ApplicationDbContext DbContext)
         {
             logger = _logger;
+            _dbContext = DbContext;
         }
 
         [HttpGet]
-        public IEnumerable<VillaModel> GetVillas() 
+        [ProducesResponseType(StatusCodes.Status200OK)] // This is response types
+        public ActionResult <IEnumerable<VillaDTO>> GetVillas() 
         {
             logger.LogInformation("Getting All Villas");
-            return new List<VillaModel>
-            {
-                new VillaModel { Id = 1, Name = "Beach View" },
-                new VillaModel { Id = 2, Name = "Pool View" }
-            };
+            return Ok(_dbContext.VillasTable);
 
         }
+
+        [HttpGet("int{id}", Name ="GetVilla")]
+        [ProducesResponseType(StatusCodes.Status200OK)] // This is response types
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<IEnumerable<VillaDTO>> GetVillasById(int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest();
+            }
+            var Villas = _dbContext.VillasTable.FirstOrDefault(x => x.Id == id);
+            if (Villas == null) 
+            { 
+                return NotFound();
+            }
+            return Ok(Villas);
+        }
+
     }
 }
