@@ -149,3 +149,90 @@ System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport 
 2025-01-04 20:42:28.507 +05:30 [DBG] Connection id "0HN9CQ8LG1DLQ" sending FIN because: "The Socket transport's send loop completed gracefully."
 2025-01-04 20:42:28.507 +05:30 [DBG] The connection queue processing loop for 0HN9CQ8LG1DLQ completed.
 2025-01-04 20:42:28.507 +05:30 [DBG] Connection id "0HN9CQ8LG1DLQ" stopped.
+2025-01-04 21:09:46.164 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-04 21:09:46.430 +05:30 [DBG] Hosting starting
+2025-01-04 21:09:46.885 +05:30 [INF] Now listening on: https://localhost:7029
+2025-01-04 21:09:46.885 +05:30 [INF] Now listening on: http://localhost:5036
+2025-01-04 21:09:46.885 +05:30 [DBG] Loaded hosting startup assembly MagicVilla_Api_Udemy
+2025-01-04 21:09:46.885 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-01-04 21:09:46.885 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-04 21:09:46.885 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-01-04 21:09:46.943 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-04 21:09:46.943 +05:30 [INF] Hosting environment: Development
+2025-01-04 21:09:46.944 +05:30 [INF] Content root path: F:\Rahul_Data\.Net_sessions\Project\MagicVilla\MagicVilla_Api_Udemy
+2025-01-04 21:09:46.944 +05:30 [DBG] Hosting started
+2025-01-04 21:09:47.243 +05:30 [DBG] Connection id "0HN9CQO2DHMOO" accepted.
+2025-01-04 21:09:47.243 +05:30 [DBG] Connection id "0HN9CQO2DHMOO" started.
+2025-01-04 21:09:47.251 +05:30 [DBG] Connection id "0HN9CQO2DHMOP" accepted.
+2025-01-04 21:09:47.251 +05:30 [DBG] Connection id "0HN9CQO2DHMOP" started.
+2025-01-04 21:09:47.267 +05:30 [DBG] Connection id "0HN9CQO2DHMOO" received FIN.
+2025-01-04 21:09:47.267 +05:30 [DBG] Connection id "0HN9CQO2DHMOP" received FIN.
+2025-01-04 21:09:47.301 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-04 21:09:47.301 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-04 21:09:47.489 +05:30 [DBG] Connection id "0HN9CQO2DHMOP" stopped.
+2025-01-04 21:09:47.489 +05:30 [DBG] Connection id "0HN9CQO2DHMOO" stopped.
+2025-01-04 21:09:47.495 +05:30 [DBG] Connection id "0HN9CQO2DHMOP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-04 21:09:47.495 +05:30 [DBG] Connection id "0HN9CQO2DHMOO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-04 21:09:47.572 +05:30 [DBG] Connection id "0HN9CQO2DHMOQ" accepted.
+2025-01-04 21:09:47.573 +05:30 [DBG] Connection id "0HN9CQO2DHMOQ" started.
+2025-01-04 21:09:47.625 +05:30 [DBG] Connection 0HN9CQO2DHMOQ established using the following protocol: "Tls12"
+2025-01-04 21:09:47.711 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7029/swagger/index.html - null null
+2025-01-04 21:09:47.875 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-04 21:09:47.899 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-01-04 21:09:47.899 +05:30 [DBG] Request did not match any endpoints
+2025-01-04 21:09:47.982 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-04 21:09:47.983 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-04 21:09:48.052 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-04 21:09:48.053 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-04 21:09:48.058 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7029/swagger/index.html - 200 null text/html;charset=utf-8 351.9121ms
+2025-01-04 21:09:48.061 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7029/_vs/browserLink - null null
+2025-01-04 21:09:48.061 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7029/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-04 21:09:48.071 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7029/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 8.5173ms
+2025-01-04 21:09:48.225 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7029/_vs/browserLink - 200 null text/javascript; charset=UTF-8 164.5464ms
+2025-01-04 21:09:48.371 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7029/swagger/v1/swagger.json - null null
+2025-01-04 21:09:48.371 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-01-04 21:09:48.371 +05:30 [DBG] Request did not match any endpoints
+2025-01-04 21:09:48.385 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7029/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.3829ms
+2025-01-04 21:09:56.074 +05:30 [DBG] Connection id "0HN9CQO2DHMOQ" received FIN.
+2025-01-04 21:09:56.082 +05:30 [DBG] The connection queue processing loop for 0HN9CQO2DHMOQ completed.
+2025-01-04 21:09:56.092 +05:30 [DBG] Connection id "0HN9CQO2DHMOQ" is closed. The last processed stream ID was 7.
+2025-01-04 21:09:56.093 +05:30 [DBG] Connection id "0HN9CQO2DHMOQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-04 21:09:56.109 +05:30 [DBG] Connection id "0HN9CQO2DHMOQ" stopped.
+2025-01-04 21:09:57.944 +05:30 [DBG] Connection id "0HN9CQO2DHMOR" accepted.
+2025-01-04 21:09:57.945 +05:30 [DBG] Connection id "0HN9CQO2DHMOR" started.
+2025-01-04 21:09:57.947 +05:30 [DBG] Connection 0HN9CQO2DHMOR established using the following protocol: "Tls12"
+2025-01-04 21:09:57.949 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7029/api/villaapi - null null
+2025-01-04 21:09:57.956 +05:30 [DBG] 1 candidate(s) found for the request path '/api/villaapi'
+2025-01-04 21:09:57.959 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.VillaApiController.GetVillas (MagicVilla_Api_Udemy)' with route pattern 'api/villaapi' is valid for the request path '/api/villaapi'
+2025-01-04 21:09:57.959 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.VillaApiController.GetVillas (MagicVilla_Api_Udemy)'
+2025-01-04 21:09:57.963 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-04 21:09:57.966 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.VillaApiController.GetVillas (MagicVilla_Api_Udemy)'
+2025-01-04 21:09:57.992 +05:30 [INF] Route matched with {action = "GetVillas", controller = "VillaApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[MagicVilla_Api_Udemy.Models.VillaModel] GetVillas() on controller MagicVilla_Api_Udemy.Controllers.VillaApiController (MagicVilla_Api_Udemy).
+2025-01-04 21:09:57.993 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-04 21:09:57.993 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-04 21:09:57.993 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-04 21:09:57.994 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-04 21:09:57.994 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-04 21:09:57.995 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.VillaApiController (MagicVilla_Api_Udemy)
+2025-01-04 21:09:57.996 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.VillaApiController (MagicVilla_Api_Udemy)
+2025-01-04 21:09:57.998 +05:30 [INF] Getting All Villas
+2025-01-04 21:09:58.000 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-01-04 21:09:58.002 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-01-04 21:09:58.005 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-01-04 21:09:58.005 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-04 21:09:58.005 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-04 21:09:58.006 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-04 21:09:58.007 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MagicVilla_Api_Udemy.Models.VillaModel, MagicVilla_Api_Udemy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-04 21:09:58.024 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.VillaApiController.GetVillas (MagicVilla_Api_Udemy) in 26.407ms
+2025-01-04 21:09:58.024 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.VillaApiController.GetVillas (MagicVilla_Api_Udemy)'
+2025-01-04 21:09:58.025 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7029/api/villaapi - 200 null application/json; charset=utf-8 75.6075ms
