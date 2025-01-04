@@ -1,6 +1,13 @@
+using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// This dependency injection for logger information.
+Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().WriteTo
+    .File("api/villaLogs.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+builder.Host.UseSerilog();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
