@@ -52,7 +52,7 @@ namespace MagicVilla_Api_Udemy.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
 
-        public ActionResult<VillaDTO> CreateVilla([FromBody] VillaDTO villaDTO)
+        public ActionResult<VillaDTO> CreateVilla([FromBody] VillaCreateDTO villaDTO)
         {
             if (_dbContext.VillasTable.FirstOrDefault(u => u.Name.ToLower() == villaDTO.Name.ToLower()) != null)
             {
@@ -63,14 +63,13 @@ namespace MagicVilla_Api_Udemy.Controllers
             {
                 return BadRequest(villaDTO);
             }
-            if (villaDTO.Id > 0)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError);
-            }
+            //if (villaDTO.Id > 0)
+            //{
+            //    return StatusCode(StatusCodes.Status500InternalServerError);
+            //}
 
             VillaModel Model = new()
             {
-                 Id = villaDTO.Id,
                  Name =     villaDTO.Name,
                  Description =  villaDTO.Description,
                  Rate = villaDTO.Rate,
@@ -82,7 +81,7 @@ namespace MagicVilla_Api_Udemy.Controllers
             };
             _dbContext.VillasTable.Add(Model);
             _dbContext.SaveChanges();   
-            return CreatedAtRoute("GetVilla", new { id = villaDTO.Id }, villaDTO);
+            return CreatedAtRoute("GetVilla", new { id = Model.Id }, Model);
         }
     }
     
