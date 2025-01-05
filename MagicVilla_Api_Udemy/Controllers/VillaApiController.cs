@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MagicVilla_Api_Udemy.Models;
 using MagicVilla_Api_Udemy.Models.DTO;
+using MagicVilla_Api_Udemy.Repository.IRepository;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -14,12 +15,15 @@ namespace MagicVilla_Api_Udemy.Controllers
     {
         private readonly ILogger<VillaApiController> logger;
         private readonly ApplicationDbContext _dbContext;
+        private readonly IVillaRepository _villaRepository;
         private readonly IMapper _mapper;
 
-        public VillaApiController(ILogger<VillaApiController> _logger, ApplicationDbContext DbContext, IMapper mapper)
+        public VillaApiController(ILogger<VillaApiController> _logger, IVillaRepository villaRepository, IMapper mapper)
         {
             logger = _logger;
-            _dbContext = DbContext;
+            //_dbContext = DbContext;
+
+            _villaRepository = villaRepository;
             _mapper = mapper;
         }
 
@@ -28,7 +32,8 @@ namespace MagicVilla_Api_Udemy.Controllers
         public async Task<ActionResult <IEnumerable<VillaDTO>>> GetVillas() 
         {
             logger.LogInformation("Getting All Villas");
-            IEnumerable<VillaModel> VillaList = await _dbContext.VillasTable.ToListAsync();
+            //IEnumerable<VillaModel> VillaList = await _dbContext.VillasTable.ToListAsync();
+            IEnumerable<VillaModel> VillaList = await _villaRepository.GetAllAsync();
             return Ok(_mapper.Map<List<VillaDTO>>(VillaList));
 
         }
@@ -43,7 +48,8 @@ namespace MagicVilla_Api_Udemy.Controllers
             {
                 return BadRequest();
             }
-            var Villas = await _dbContext.VillasTable.FirstOrDefaultAsync(x => x.Id == id);
+            //var Villas = await _dbContext.VillasTable.FirstOrDefaultAsync(x => x.Id == id);
+            var Villas = await _villaRepository.GetAsync(x => x.Id == id);
             if (Villas == null) 
             { 
                 return NotFound();

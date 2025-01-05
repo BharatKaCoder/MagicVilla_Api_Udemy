@@ -1,4 +1,6 @@
 using MagicVilla_Api_Udemy;
+using MagicVilla_Api_Udemy.Repository;
+using MagicVilla_Api_Udemy.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +18,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConnection"));
 });
+
+// Injecting IRepository in DI
+builder.Services.AddScoped<IVillaRepository, VillaRepository>();
 
 // AutoMapping dependancy injection
 builder.Services.AddAutoMapper(typeof(MappingConfig));
