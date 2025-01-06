@@ -40,7 +40,7 @@ namespace MagicVillaUdemy_Web.Services
                         Message.Method = HttpMethod.Delete;
                         break;
 
-                    case StaticDetails.APIType.UPDATE:
+                    case StaticDetails.APIType.PUT:
                         Message.Method = HttpMethod.Put;
                         break;
 
