@@ -39,7 +39,7 @@ namespace MagicVillaUdemy_Web.Services
             return SendAsync<T>(new APIRequest()
             {
                 ApiType = StaticDetails.APIType.GET,
-                ApiUrl = VillaUrl + "/api/villaapi/"
+                ApiUrl = VillaUrl + "/api/villaapi"
             });
         }
 
