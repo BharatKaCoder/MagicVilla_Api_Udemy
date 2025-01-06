@@ -4,6 +4,7 @@ using MagicVilla_Api_Udemy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MagicVilla_Api_Udemy.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250106070627_AddVillaNumberToDb")]
+    partial class AddVillaNumberToDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -67,37 +70,37 @@ namespace MagicVilla_Api_Udemy.Migrations
                         {
                             Id = 1,
                             Amenity = "Pool, WiFi, Parking",
-                            CreatedAt = new DateTime(2025, 1, 6, 16, 5, 10, 840, DateTimeKind.Local).AddTicks(4178),
+                            CreatedAt = new DateTime(2025, 1, 6, 12, 36, 23, 822, DateTimeKind.Local).AddTicks(9185),
                             Description = "A beautiful villa with a stunning ocean view, perfect for a relaxing getaway.",
                             ImageUrl = "https://example.com/images/oceanviewvilla.jpg",
                             Name = "Ocean View Villa",
                             Rate = 250.5,
                             SqFt = 2000,
-                            UpdatedAt = new DateTime(2025, 1, 6, 16, 5, 10, 840, DateTimeKind.Local).AddTicks(4194)
+                            UpdatedAt = new DateTime(2025, 1, 6, 12, 36, 23, 822, DateTimeKind.Local).AddTicks(9196)
                         },
                         new
                         {
                             Id = 2,
                             Amenity = "Fireplace, Hot Tub, WiFi",
-                            CreatedAt = new DateTime(2025, 1, 6, 16, 5, 10, 840, DateTimeKind.Local).AddTicks(4196),
+                            CreatedAt = new DateTime(2025, 1, 6, 12, 36, 23, 822, DateTimeKind.Local).AddTicks(9199),
                             Description = "A cozy retreat in the mountains, ideal for nature lovers and adventure seekers.",
                             ImageUrl = "https://example.com/images/mountainretreat.jpg",
                             Name = "Mountain Retreat",
                             Rate = 180.75,
                             SqFt = 1500,
-                            UpdatedAt = new DateTime(2025, 1, 6, 16, 5, 10, 840, DateTimeKind.Local).AddTicks(4197)
+                            UpdatedAt = new DateTime(2025, 1, 6, 12, 36, 23, 822, DateTimeKind.Local).AddTicks(9200)
                         },
                         new
                         {
                             Id = 3,
                             Amenity = "Gym, Elevator, WiFi",
-                            CreatedAt = new DateTime(2025, 1, 6, 16, 5, 10, 840, DateTimeKind.Local).AddTicks(4199),
+                            CreatedAt = new DateTime(2025, 1, 6, 12, 36, 23, 822, DateTimeKind.Local).AddTicks(9201),
                             Description = "A modern loft in the heart of the city with easy access to all major attractions.",
                             ImageUrl = "https://example.com/images/cityloft.jpg",
                             Name = "City Loft",
                             Rate = 300.0,
                             SqFt = 1200,
-                            UpdatedAt = new DateTime(2025, 1, 6, 16, 5, 10, 840, DateTimeKind.Local).AddTicks(4199)
+                            UpdatedAt = new DateTime(2025, 1, 6, 12, 36, 23, 822, DateTimeKind.Local).AddTicks(9202)
                         });
                 });
 
@@ -116,25 +119,9 @@ namespace MagicVilla_Api_Udemy.Migrations
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("VillaID")
-                        .HasColumnType("int");
-
                     b.HasKey("VillaNo");
 
-                    b.HasIndex("VillaID");
-
                     b.ToTable("VillaNumber");
-                });
-
-            modelBuilder.Entity("MagicVilla_Api_Udemy.Models.VillaNumber", b =>
-                {
-                    b.HasOne("MagicVilla_Api_Udemy.Models.VillaModel", "VillaM")
-                        .WithMany()
-                        .HasForeignKey("VillaID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("VillaM");
                 });
 #pragma warning restore 612, 618
         }

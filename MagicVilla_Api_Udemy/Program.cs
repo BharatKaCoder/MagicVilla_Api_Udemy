@@ -21,6 +21,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 // Injecting IRepository in DI
 builder.Services.AddScoped<IVillaRepository, VillaRepository>();
+builder.Services.AddScoped<IVillaNumberRepository, VillaNumberRepository>();
 
 // AutoMapping dependancy injection
 builder.Services.AddAutoMapper(typeof(MappingConfig));

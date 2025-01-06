@@ -9,6 +9,8 @@ namespace MagicVilla_Api_Udemy
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext>options) : base(options) { }
 
         public DbSet<VillaModel> VillasTable { get; set; }
+        public DbSet<VillaNumber> VillaNumber { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
