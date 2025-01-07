@@ -93,7 +93,7 @@ namespace MagicVilla_Api_Udemy.Controllers
         {
             try
             {
-            var villsList = await _dbContext.VillasTable.FirstOrDefaultAsync(u => u.Name.ToLower() == _createvillaDTO.Name.ToLower()) != null;
+            var villsList = await _villaRepository.GetAsync(u => u.Name.ToLower() == _createvillaDTO.Name.ToLower()) != null;
             if (villsList)
             {
                 ModelState.AddModelError("CustomError", "Villa already exist!");

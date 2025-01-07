@@ -50,6 +50,11 @@ namespace MagicVillaUdemy_Web.Services
                 }
                 HttpResponseMessage apiResponse = null;
                 apiResponse = await clint.SendAsync(Message);
+                if(!apiResponse.IsSuccessStatusCode)
+                {
+                    var errorContent = await apiResponse.Content.ReadAsStringAsync();
+                    throw new Exception($"API call failed with status code {apiResponse.StatusCode}: {errorContent}");
+                }
                 var ApiContent = await apiResponse.Content.ReadAsStringAsync();
                 var APIResponse = JsonConvert.DeserializeObject<T>(ApiContent);
                 return APIResponse;

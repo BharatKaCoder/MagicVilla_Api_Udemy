@@ -4,6 +4,7 @@ using MagicVilla_Api_Udemy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MagicVilla_Api_Udemy.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250107065532_addedNullableChecks")]
+    partial class addedNullableChecks
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,37 +67,37 @@ namespace MagicVilla_Api_Udemy.Migrations
                         {
                             Id = 1,
                             Amenity = "Pool, WiFi, Parking",
-                            CreatedAt = new DateTime(2025, 1, 7, 13, 42, 32, 5, DateTimeKind.Local).AddTicks(9705),
+                            CreatedAt = new DateTime(2025, 1, 7, 12, 25, 30, 700, DateTimeKind.Local).AddTicks(8303),
                             Description = "A beautiful villa with a stunning ocean view, perfect for a relaxing getaway.",
                             ImageUrl = "https://example.com/images/oceanviewvilla.jpg",
                             Name = "Ocean View Villa",
                             Rate = 250.5,
                             SqFt = 2000,
-                            UpdatedAt = new DateTime(2025, 1, 7, 13, 42, 32, 5, DateTimeKind.Local).AddTicks(9715)
+                            UpdatedAt = new DateTime(2025, 1, 7, 12, 25, 30, 700, DateTimeKind.Local).AddTicks(8313)
                         },
                         new
                         {
                             Id = 2,
                             Amenity = "Fireplace, Hot Tub, WiFi",
-                            CreatedAt = new DateTime(2025, 1, 7, 13, 42, 32, 5, DateTimeKind.Local).AddTicks(9717),
+                            CreatedAt = new DateTime(2025, 1, 7, 12, 25, 30, 700, DateTimeKind.Local).AddTicks(8315),
                             Description = "A cozy retreat in the mountains, ideal for nature lovers and adventure seekers.",
                             ImageUrl = "https://example.com/images/mountainretreat.jpg",
                             Name = "Mountain Retreat",
                             Rate = 180.75,
                             SqFt = 1500,
-                            UpdatedAt = new DateTime(2025, 1, 7, 13, 42, 32, 5, DateTimeKind.Local).AddTicks(9717)
+                            UpdatedAt = new DateTime(2025, 1, 7, 12, 25, 30, 700, DateTimeKind.Local).AddTicks(8316)
                         },
                         new
                         {
                             Id = 3,
                             Amenity = "Gym, Elevator, WiFi",
-                            CreatedAt = new DateTime(2025, 1, 7, 13, 42, 32, 5, DateTimeKind.Local).AddTicks(9719),
+                            CreatedAt = new DateTime(2025, 1, 7, 12, 25, 30, 700, DateTimeKind.Local).AddTicks(8317),
                             Description = "A modern loft in the heart of the city with easy access to all major attractions.",
                             ImageUrl = "https://example.com/images/cityloft.jpg",
                             Name = "City Loft",
                             Rate = 300.0,
                             SqFt = 1200,
-                            UpdatedAt = new DateTime(2025, 1, 7, 13, 42, 32, 5, DateTimeKind.Local).AddTicks(9719)
+                            UpdatedAt = new DateTime(2025, 1, 7, 12, 25, 30, 700, DateTimeKind.Local).AddTicks(8318)
                         });
                 });
 
@@ -107,6 +110,7 @@ namespace MagicVilla_Api_Udemy.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("SpecialDetails")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("UpdatedDate")

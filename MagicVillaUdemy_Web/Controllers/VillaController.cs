@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using System.Collections.Generic;
+using AutoMapper;
 using MagicVillaUdemy_Web.Models;
 using MagicVillaUdemy_Web.Models.DTO;
 using MagicVillaUdemy_Web.Services.IServices;
@@ -17,15 +18,36 @@ namespace MagicVillaUdemy_Web.Controllers
             _VillService = villaService;
             _Mapper = mapper;
         }
+
         public async Task<IActionResult> IndexVilla()
         {
             List<VillaDTO> List = new();
             var Response = await _VillService.GetAllAsync<APIResponse>();
-            if(Response != null && Response.Success) 
+            if (Response != null && Response.Success)
             {
                 List = JsonConvert.DeserializeObject<List<VillaDTO>>(Convert.ToString(Response.Result));
             }
             return View(List);
+        }
+
+        public async Task<IActionResult> CreateVilla()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateVilla(VillaCreateDTO model)
+        {
+            if (ModelState.IsValid) 
+            {
+                var Response = await _VillService.CreateAsync<APIResponse>(model);
+                if (Response != null && Response.Success)
+                {
+                    return RedirectToAction(nameof(IndexVilla));
+                }
+            }
+            return View(model);
         }
     }
 }

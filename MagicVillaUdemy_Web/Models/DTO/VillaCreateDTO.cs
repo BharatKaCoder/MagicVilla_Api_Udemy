@@ -7,11 +7,11 @@ namespace MagicVillaUdemy_Web.Models.DTO
         [Required]
         [MaxLength(30)]
         public string Name { get; set; }
-        public string Description { get; set; }
+        public string? Description { get; set; }
         [Required]
         public double Rate { get; set; }
         public int SqFt { get; set; }
-        public string ImageUrl { get; set; }
-        public string Amenity { get; set; }
+        public string? ImageUrl { get; set; }
+        public string? Amenity { get; set; }
     }
 }
