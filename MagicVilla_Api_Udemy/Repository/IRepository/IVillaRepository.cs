@@ -9,6 +9,10 @@ namespace MagicVilla_Api_Udemy.Repository.IRepository
 
         Task<VillaModel> GetAsync(Expression<Func<VillaModel,bool>> filter = null, bool tracked=true);
         Task CreateAsync (VillaModel entity);
+
+        Task UpdateAsync(VillaModel entity);
+
+        Task DeleteAsync(VillaModel entity);
         Task SaveAsync (VillaModel entity);
     }
 }

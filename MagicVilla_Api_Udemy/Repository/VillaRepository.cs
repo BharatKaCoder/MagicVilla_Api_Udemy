@@ -19,6 +19,17 @@ namespace MagicVilla_Api_Udemy.Repository
             await _context.VillasTable.AddAsync(entity);
             await SaveAsync(entity);
         }
+        public async Task UpdateAsync(VillaModel entity)
+        {
+            await _context.VillasTable.AddAsync(entity);
+            await SaveAsync(entity);
+        }
+
+        public async Task DeleteAsync(VillaModel entity)
+        {
+             _context.VillasTable.Remove(entity);
+            await SaveAsync(entity);
+        }
 
         public async Task<VillaModel> GetAsync(Expression<Func<VillaModel,bool>> filter = null, bool tracked = true)
         {

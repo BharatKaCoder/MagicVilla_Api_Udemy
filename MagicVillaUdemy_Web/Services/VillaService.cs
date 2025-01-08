@@ -58,7 +58,7 @@ namespace MagicVillaUdemy_Web.Services
             {
                 ApiType = StaticDetails.APIType.PUT,
                 Data = dto,
-                ApiUrl = VillaUrl + "/api/villaapi/"
+                ApiUrl = VillaUrl + "/api/villaapi/" + dto.Id
             });
         }
     }

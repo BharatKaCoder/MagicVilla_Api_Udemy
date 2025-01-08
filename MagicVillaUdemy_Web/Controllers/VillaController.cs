@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Reflection;
 using AutoMapper;
 using MagicVillaUdemy_Web.Models;
 using MagicVillaUdemy_Web.Models.DTO;
@@ -39,7 +40,7 @@ namespace MagicVillaUdemy_Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateVilla(VillaCreateDTO model)
         {
-            if (ModelState.IsValid) 
+            if (ModelState.IsValid)
             {
                 var Response = await _VillService.CreateAsync<APIResponse>(model);
                 if (Response != null && Response.Success)
@@ -48,6 +49,57 @@ namespace MagicVillaUdemy_Web.Controllers
                 }
             }
             return View(model);
+        }
+
+        public async Task<IActionResult> UpdateVilla(int VillaId)
+        {
+            var Response = await _VillService.GetAsync<APIResponse>(VillaId);
+            if (Response != null && Response.Success)
+            {
+                VillaDTO model = JsonConvert.DeserializeObject<VillaDTO>(Convert.ToString(Response.Result));
+                return View(_Mapper.Map<VillaUpdateDTO>(model));
+            }
+            return NotFound();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateVilla(VillaUpdateDTO dto)
+        {
+            if (ModelState.IsValid)
+            {
+                var Response = await _VillService.UpdateAsync<APIResponse>(dto);
+                if (Response != null && Response.Success)
+                {
+                    return RedirectToAction(nameof(IndexVilla));
+                }
+            }
+            return View(dto);
+        }
+
+        // Delete Villa 
+        public async Task<IActionResult> DeleteVilla(int villaId)
+        {
+            var response = await _VillService.GetAsync<APIResponse>(villaId);
+            if (response != null && response.Success)
+            {
+                VillaDTO model = JsonConvert.DeserializeObject<VillaDTO>(Convert.ToString(response.Result));
+                return View(model);
+            }
+            return NotFound();
+        }
+
+        // POST: Perform the deletion
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteVillaConfirmed(VillaDTO model)
+        {
+            var response = await _VillService.DeleteAsync<APIResponse>(model.Id); // Pass the ID to delete
+            if (response != null && response.Success)
+            {
+               return RedirectToAction(nameof(IndexVilla));
+            }
+            return View(model); // Optionally return a view with an error message
         }
     }
 }

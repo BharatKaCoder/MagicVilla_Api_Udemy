@@ -131,6 +131,77 @@ namespace MagicVilla_Api_Udemy.Controllers
             }
             return _apiResponse;
         }
+
+        // Update Villa Details
+        [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<APIResponse>> UpdateVilla(int id, [FromBody] VillaUpdateDTO villaUpdateDTO)
+        {
+            if (villaUpdateDTO == null || id != villaUpdateDTO.Id)
+            {
+                return BadRequest("Invalid data.");
+            }
+
+            try
+            {
+                var existingVilla = await _villaRepository.GetAsync(v => v.Id == id);
+                if (existingVilla == null)
+                {
+                    return NotFound();
+                }
+
+                // Map updated properties
+                existingVilla.Name = villaUpdateDTO.Name;
+                existingVilla.Rate = villaUpdateDTO.Rate;
+                existingVilla.SqFt = villaUpdateDTO.SqFt;
+                existingVilla.Description = villaUpdateDTO.Description;
+                existingVilla.ImageUrl = villaUpdateDTO.ImageUrl;
+                existingVilla.Amenity = villaUpdateDTO.Amenity;
+
+                await _villaRepository.UpdateAsync(existingVilla);
+
+                return Ok(new APIResponse { Success = true, Result = existingVilla });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new APIResponse { Success = false, ErrorMessage = new List<string> { ex.Message } });
+            }
+        }
+
+        // DELETE API start here
+        [HttpDelete]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<APIResponse>> DeleteVillaNumber(int id)
+        {
+            try
+            {
+                if (id == 0)
+                {
+                    return BadRequest();
+                }
+                var villa = await _villaRepository.GetAsync(u => u.Id == id);
+                if (villa == null)
+                {
+                    return NotFound();
+                }
+                await _villaRepository.DeleteAsync(villa);
+                _apiResponse.StatusCode = HttpStatusCode.NoContent;
+                _apiResponse.StatusCode = HttpStatusCode.OK;
+            }
+            catch (Exception ex)
+            {
+                _apiResponse.Success = false;
+                _apiResponse.ErrorMessage = new List<string>() { ex.Message };
+            }
+            return _apiResponse;
+        }
+
     }
-    
+
 }
