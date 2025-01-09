@@ -1,0 +1,57 @@
+﻿@model MagicVillaUdemy_Web.Models.ViewModel.VillaNumberCreateVM
+
+@{
+    ViewData["Title"] = "Create Villa Number";
+}
+
+<div class="container p-4 border">
+    <h3 class="text-primary text-center pb-2">Create New Villa</h3>
+
+    <form asp-action="CreateVillaNumber" method="post">
+        <div class="mb-3 row align-items-center">
+            <label asp-for="VillaNumber.VillaNo" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="VillaNumber.VillaNo" class="form-control" />
+                <span asp-validation-for="VillaNumber.VillaNo" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="mb-3 row align-items-center">
+            <label asp-for="VillaNumber.VillaID" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <select asp-for="VillaNumber.VillaID" class="form-select" asp-items="Model.VillaList">
+                    <option disabled selected>--Select Villa--</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="mb-3 row align-items-center">
+            <label asp-for="VillaNumber.SpecialDetails" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <textarea asp-for="VillaNumber.SpecialDetails" class="form-select"></textarea>
+                <span asp-validation-for="VillaNumber.SpecialDetails" class="text-danger"></span>
+                
+            </div>
+        </div>
+
+        <div class="mb-3 row">
+            <div class="col-sm-10 offset-sm-2">
+                <!-- Offset to align with labels -->
+                <button type="submit" value="Create" class="btn btn-success">Create Villa</button>
+                <a href="@Url.Action("IndexVillaNumber", "IndexVillaNumber")" class="btn btn-secondary">Cancel</a>
+            </div>
+        </div>
+
+        <!-- Back to Villa list link -->
+        <div class="text-end mt-3">
+            <!-- Added margin-top for spacing -->
+            <a asp-action="IndexVilla" asp-controller="Villa">Back to Villa list</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
