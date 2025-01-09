@@ -38,7 +38,7 @@ namespace MagicVilla_Api_Udemy.Controllers
             try
             {
                 logger.LogInformation("Getting All Villas");
-                var VillaNumberList = await _DbvillaNumber.GetAllNumberAsync();
+                var VillaNumberList = await _DbvillaNumber.GetAllNumberAsync(includeProperties: "Villa");
                 _apiResponse.Result = _mapper.Map<List<VillaNumberDTO>>(VillaNumberList);
                 _apiResponse.StatusCode = HttpStatusCode.OK;
                 return Ok(_apiResponse);

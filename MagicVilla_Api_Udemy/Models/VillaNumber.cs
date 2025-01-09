@@ -9,10 +9,10 @@ namespace MagicVilla_Api_Udemy.Models
         public int VillaNo { get; set; }
 
         // This is adding foreign ke join the table  "VillaM" is asssigned to it.
-        [ForeignKey("VillaM")]
+        [ForeignKey("Villa")]
         public int VillaID { get; set; }
 
-        public VillaModel VillaM {  get; set; } // created for foreign key
+        public VillaModel Villa {  get; set; } // created for foreign key
         public string SpecialDetails { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }

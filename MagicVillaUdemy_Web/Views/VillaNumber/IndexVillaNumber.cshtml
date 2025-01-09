@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MagicVillaUdemy_Web.Models.DTO.VillaNumberDTO>
+
+<br />
+
+<div class="container p-4 border">
+    <div class="text-end">
+        <a asp-controller="VillaNumber" asp-action="CreateVillaNumber" class="btn btn-outline-primary"><i class="bi bi-plus-circle mr-2"></i>Create New Villa Number</a>
+    </div>
+
+    <div class="row pb-2">
+        <h1 class="text-primary">Villa number list</h1>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Villa Name</th>
+                <th>Villa Number</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Villa.Name</td>
+                    <td>@item.VillaNo</td>
+                    <td>
+                        <div class="text-end">
+                            <a asp-controller="Villa" asp-route-villaNo="@item.VillaNo" asp-action="UpdateVillaNumber" class="btn btn-outline-success"><i class="bi bi-pencil-square"></i></a>
+                            <a asp-controller="Villa" asp-route-villaNo="@item.VillaNo" asp-action="DeleteVillaNumber" class="btn btn-outline-danger"><i class="bi bi-trash3"></i></a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

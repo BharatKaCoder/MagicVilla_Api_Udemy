@@ -9,6 +9,8 @@ namespace MagicVillaUdemy_Web.Models.DTO
 
         [Required]
         public int VillaID { get; set; }
+
+        public VillaDTO Villa { get; set; }
         public string SpecialDetails { get; set; }
     }
 }
