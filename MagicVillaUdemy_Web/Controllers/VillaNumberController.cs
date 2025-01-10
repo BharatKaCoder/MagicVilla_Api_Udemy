@@ -78,6 +78,12 @@ namespace MagicVillaUdemy_Web.Controllers
                 if (Response != null && Response.Success)
                 {
                     return RedirectToAction(nameof(IndexVillaNumber));
+                } else
+                {
+                    if(Response.ErrorMessage.Count > 0)
+                    {
+                        ModelState.AddModelError("ErrorMessage",Response.ErrorMessage.FirstOrDefault());
+                    }
                 }
             }
 
