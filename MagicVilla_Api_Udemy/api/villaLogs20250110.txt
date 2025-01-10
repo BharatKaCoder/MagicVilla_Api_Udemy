@@ -4131,3 +4131,1473 @@ FROM [VillasTable] AS [v]
 2025-01-10 18:50:30.932 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
 2025-01-10 18:50:30.932 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
 2025-01-10 18:50:30.932 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/api/villaapi - 200 null application/json; charset=utf-8 9.298ms
+2025-01-10 19:07:04.631 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-01-10 19:07:05.242 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 19:07:07.754 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 19:07:21.302 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-01-10 19:07:21.925 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 19:07:21.939 +05:30 [DBG] Creating DbConnection.
+2025-01-10 19:07:21.967 +05:30 [DBG] Created DbConnection. (26ms).
+2025-01-10 19:07:21.970 +05:30 [DBG] Migrating using database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:21.974 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.183 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.187 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-10 19:07:22.193 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2025-01-10 19:07:22.194 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2025-01-10 19:07:22.199 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-10 19:07:22.226 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-10 19:07:22.228 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.234 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (3ms).
+2025-01-10 19:07:22.238 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-01-10 19:07:22.238 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-01-10 19:07:22.238 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-01-10 19:07:22.238 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.239 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.239 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-10 19:07:22.254 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-10 19:07:22.254 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.254 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 19:07:22.255 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.255 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.255 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-10 19:07:22.255 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-10 19:07:22.255 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-10 19:07:22.255 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-10 19:07:22.256 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-10 19:07:22.256 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.256 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 19:07:22.256 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-01-10 19:07:22.256 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-01-10 19:07:22.256 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-01-10 19:07:22.256 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.257 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.257 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-10 19:07:22.257 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-10 19:07:22.257 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.257 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 19:07:22.272 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.273 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.273 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 19:07:22.273 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 19:07:22.273 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 19:07:22.273 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-10 19:07:22.279 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-10 19:07:22.281 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.282 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 1ms reading results.
+2025-01-10 19:07:22.282 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.282 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 19:07:22.291 +05:30 [INF] Applying migration '20250110133707_LocalUserTableAdded'.
+2025-01-10 19:07:22.341 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.341 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.344 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-01-10 19:07:22.351 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2025-01-10 19:07:22.352 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-10 19:07:22.352 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-10 19:07:22.353 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-10 19:07:22.353 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [LocalUsers] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Email] nvarchar(max) NULL,
+    [Password] nvarchar(max) NULL,
+    [Role] nvarchar(max) NULL,
+    CONSTRAINT [PK_LocalUsers] PRIMARY KEY ([Id])
+);
+2025-01-10 19:07:22.376 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [LocalUsers] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Email] nvarchar(max) NULL,
+    [Password] nvarchar(max) NULL,
+    [Role] nvarchar(max) NULL,
+    CONSTRAINT [PK_LocalUsers] PRIMARY KEY ([Id])
+);
+2025-01-10 19:07:22.377 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-10 19:07:22.377 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-10 19:07:22.377 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-10 19:07:22.377 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [VillasTable] SET [CreatedAt] = '2025-01-10T19:07:05.2937863+05:30', [UpdatedAt] = '2025-01-10T19:07:05.2937873+05:30'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2025-01-10 19:07:22.383 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [VillasTable] SET [CreatedAt] = '2025-01-10T19:07:05.2937863+05:30', [UpdatedAt] = '2025-01-10T19:07:05.2937873+05:30'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2025-01-10 19:07:22.384 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-10 19:07:22.384 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-10 19:07:22.384 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-10 19:07:22.384 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [VillasTable] SET [CreatedAt] = '2025-01-10T19:07:05.2937876+05:30', [UpdatedAt] = '2025-01-10T19:07:05.2937876+05:30'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2025-01-10 19:07:22.385 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [VillasTable] SET [CreatedAt] = '2025-01-10T19:07:05.2937876+05:30', [UpdatedAt] = '2025-01-10T19:07:05.2937876+05:30'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2025-01-10 19:07:22.385 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-10 19:07:22.385 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-10 19:07:22.385 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-10 19:07:22.385 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [VillasTable] SET [CreatedAt] = '2025-01-10T19:07:05.2937878+05:30', [UpdatedAt] = '2025-01-10T19:07:05.2937879+05:30'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2025-01-10 19:07:22.386 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [VillasTable] SET [CreatedAt] = '2025-01-10T19:07:05.2937878+05:30', [UpdatedAt] = '2025-01-10T19:07:05.2937879+05:30'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2025-01-10 19:07:22.386 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-01-10 19:07:22.386 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-10 19:07:22.386 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-01-10 19:07:22.386 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250110133707_LocalUserTableAdded', N'8.0.0');
+2025-01-10 19:07:22.390 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250110133707_LocalUserTableAdded', N'8.0.0');
+2025-01-10 19:07:22.391 +05:30 [DBG] Committing transaction.
+2025-01-10 19:07:22.397 +05:30 [DBG] Committed transaction.
+2025-01-10 19:07:22.398 +05:30 [DBG] Disposing transaction.
+2025-01-10 19:07:22.398 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.399 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 19:07:22.400 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 19:07:22.402 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 19:07:22.404 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-01-10 21:21:38.394 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-10 21:21:38.650 +05:30 [DBG] Hosting starting
+2025-01-10 21:21:39.025 +05:30 [INF] Now listening on: https://localhost:7001
+2025-01-10 21:21:39.026 +05:30 [INF] Now listening on: http://localhost:5036
+2025-01-10 21:21:39.026 +05:30 [DBG] Loaded hosting startup assembly MagicVilla_Api_Udemy
+2025-01-10 21:21:39.026 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-01-10 21:21:39.026 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-10 21:21:39.026 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-01-10 21:21:39.102 +05:30 [DBG] Connection id "0HN9HHQLQ13HT" accepted.
+2025-01-10 21:21:39.103 +05:30 [DBG] Connection id "0HN9HHQLQ13HT" started.
+2025-01-10 21:21:39.109 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-10 21:21:39.110 +05:30 [INF] Hosting environment: Development
+2025-01-10 21:21:39.110 +05:30 [INF] Content root path: F:\Rahul_Data\.Net_sessions\Project\MagicVilla\MagicVilla_Api_Udemy
+2025-01-10 21:21:39.110 +05:30 [DBG] Hosting started
+2025-01-10 21:21:39.114 +05:30 [DBG] Connection id "0HN9HHQLQ13HU" accepted.
+2025-01-10 21:21:39.118 +05:30 [DBG] Connection id "0HN9HHQLQ13HU" started.
+2025-01-10 21:21:39.151 +05:30 [DBG] Connection id "0HN9HHQLQ13HT" received FIN.
+2025-01-10 21:21:39.152 +05:30 [DBG] Connection id "0HN9HHQLQ13HU" received FIN.
+2025-01-10 21:21:39.163 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-10 21:21:39.185 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-10 21:21:39.232 +05:30 [DBG] Connection id "0HN9HHQLQ13HT" stopped.
+2025-01-10 21:21:39.232 +05:30 [DBG] Connection id "0HN9HHQLQ13HU" stopped.
+2025-01-10 21:21:39.239 +05:30 [DBG] Connection id "0HN9HHQLQ13HT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:21:39.239 +05:30 [DBG] Connection id "0HN9HHQLQ13HU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:21:39.628 +05:30 [DBG] Connection id "0HN9HHQLQ13HV" accepted.
+2025-01-10 21:21:39.650 +05:30 [DBG] Connection id "0HN9HHQLQ13HV" started.
+2025-01-10 21:21:39.815 +05:30 [DBG] Connection 0HN9HHQLQ13HV established using the following protocol: "Tls12"
+2025-01-10 21:21:39.976 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/index.html - null null
+2025-01-10 21:21:40.115 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-10 21:21:40.135 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-01-10 21:21:40.136 +05:30 [DBG] Request did not match any endpoints
+2025-01-10 21:21:40.218 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-10 21:21:40.222 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-10 21:21:40.499 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-10 21:21:40.500 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-10 21:21:40.506 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/index.html - 200 null text/html;charset=utf-8 541.325ms
+2025-01-10 21:21:40.581 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-10 21:21:40.582 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2025-01-10 21:21:40.612 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 30.8378ms
+2025-01-10 21:21:40.706 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 123.6744ms
+2025-01-10 21:21:40.988 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2025-01-10 21:21:40.988 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-01-10 21:21:40.988 +05:30 [DBG] Request did not match any endpoints
+2025-01-10 21:21:41.108 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 119.8095ms
+2025-01-10 21:21:41.234 +05:30 [DBG] Connection id "0HN9HHQLQ13HV" received FIN.
+2025-01-10 21:21:41.245 +05:30 [DBG] Connection id "0HN9HHQLQ13HV" is closed. The last processed stream ID was 7.
+2025-01-10 21:21:41.245 +05:30 [DBG] Connection id "0HN9HHQLQ13HV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:21:41.248 +05:30 [DBG] The connection queue processing loop for 0HN9HHQLQ13HV completed.
+2025-01-10 21:21:41.250 +05:30 [DBG] Connection id "0HN9HHQLQ13HV" stopped.
+2025-01-10 21:22:15.699 +05:30 [DBG] Connection id "0HN9HHQLQ13I0" accepted.
+2025-01-10 21:22:15.700 +05:30 [DBG] Connection id "0HN9HHQLQ13I0" started.
+2025-01-10 21:22:15.720 +05:30 [DBG] Connection 0HN9HHQLQ13I0 established using the following protocol: "Tls12"
+2025-01-10 21:22:15.727 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/userAuth/registration - application/json 94
+2025-01-10 21:22:15.753 +05:30 [DBG] 1 candidate(s) found for the request path '/api/userAuth/registration'
+2025-01-10 21:22:15.758 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)' with route pattern 'api/userAuth/registration' is valid for the request path '/api/userAuth/registration'
+2025-01-10 21:22:15.759 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)'
+2025-01-10 21:22:15.763 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-10 21:22:15.767 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)'
+2025-01-10 21:22:15.813 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO) on controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy).
+2025-01-10 21:22:15.814 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-10 21:22:15.815 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-10 21:22:15.815 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-10 21:22:15.815 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-10 21:22:15.815 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-10 21:22:15.817 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:22:16.125 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-01-10 21:22:16.175 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:22:16.190 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO' ...
+2025-01-10 21:22:16.193 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO' using the name '' in request data ...
+2025-01-10 21:22:16.194 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-01-10 21:22:16.201 +05:30 [DBG] Connection id "0HN9HHQLQ13I0", Request id "0HN9HHQLQ13I0:00000001": started reading request body.
+2025-01-10 21:22:16.201 +05:30 [DBG] Connection id "0HN9HHQLQ13I0", Request id "0HN9HHQLQ13I0:00000001": done reading request body.
+2025-01-10 21:22:16.206 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'
+2025-01-10 21:22:16.207 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'.
+2025-01-10 21:22:16.207 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'.
+2025-01-10 21:22:16.207 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO' ...
+2025-01-10 21:22:16.210 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'.
+2025-01-10 21:22:17.044 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 21:22:17.248 +05:30 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(x => x.Name == __username_0)'
+2025-01-10 21:22:17.531 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Email (string), 1], [Property: LocalUser.Name (string), 2], [Property: LocalUser.Password (string), 3], [Property: LocalUser.Role (string), 4] }
+        SELECT TOP(1) l.Id, l.Email, l.Name, l.Password, l.Role
+        FROM LocalUsers AS l
+        WHERE l.Name == @__username_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MagicVilla_Api_Udemy.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2025-01-10 21:22:17.560 +05:30 [DBG] Creating DbConnection.
+2025-01-10 21:22:17.643 +05:30 [DBG] Created DbConnection. (82ms).
+2025-01-10 21:22:17.645 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:22:18.140 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:22:18.143 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:22:18.147 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2025-01-10 21:22:18.156 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (14ms).
+2025-01-10 21:22:18.165 +05:30 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE [l].[Name] = @__username_0
+2025-01-10 21:22:18.250 +05:30 [INF] Executed DbCommand (87ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE [l].[Name] = @__username_0
+2025-01-10 21:22:18.257 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:22:18.264 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 9ms reading results.
+2025-01-10 21:22:18.266 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:22:18.274 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (7ms).
+2025-01-10 21:22:18.305 +05:30 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'LocalUser.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:22:18.359 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:22:18.365 +05:30 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2025-01-10 21:22:18.369 +05:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2025-01-10 21:22:18.383 +05:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2025-01-10 21:22:18.484 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:22:18.488 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:22:18.495 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:22:18.496 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:22:18.496 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:22:18.497 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [LocalUsers] ([Email], [Name], [Password], [Role])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-10 21:22:18.537 +05:30 [INF] Executed DbCommand (41ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [LocalUsers] ([Email], [Name], [Password], [Role])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-10 21:22:18.558 +05:30 [DBG] The foreign key property 'LocalUser.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-01-10 21:22:18.569 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:22:18.570 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 32ms reading results.
+2025-01-10 21:22:18.573 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:22:18.574 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 21:22:18.587 +05:30 [DBG] An entity of type 'LocalUser' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:22:18.589 +05:30 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2025-01-10 21:22:29.034 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy) in 13215.7537ms
+2025-01-10 21:22:29.035 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)'
+2025-01-10 21:22:29.037 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MagicVilla_Api_Udemy.Controllers.UsersController.Register(RegistrationRequestDTO model) in F:\Rahul_Data\.Net_sessions\Project\MagicVilla\MagicVilla_Api_Udemy\Controllers\UsersController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 21:22:29.076 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 21:22:29.080 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:22:29.082 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-01-10 21:22:29.082 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/userAuth/registration - 500 null text/plain; charset=utf-8 13355.0837ms
+2025-01-10 21:22:31.295 +05:30 [DBG] Connection id "0HN9HHQLQ13I0" received FIN.
+2025-01-10 21:22:31.296 +05:30 [DBG] Connection id "0HN9HHQLQ13I0" is closed. The last processed stream ID was 1.
+2025-01-10 21:22:31.296 +05:30 [DBG] Connection id "0HN9HHQLQ13I0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:22:31.297 +05:30 [DBG] The connection queue processing loop for 0HN9HHQLQ13I0 completed.
+2025-01-10 21:22:31.297 +05:30 [DBG] Connection id "0HN9HHQLQ13I0" stopped.
+2025-01-10 21:23:04.215 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-10 21:23:04.476 +05:30 [DBG] Hosting starting
+2025-01-10 21:23:04.913 +05:30 [INF] Now listening on: https://localhost:7001
+2025-01-10 21:23:04.913 +05:30 [INF] Now listening on: http://localhost:5036
+2025-01-10 21:23:04.913 +05:30 [DBG] Loaded hosting startup assembly MagicVilla_Api_Udemy
+2025-01-10 21:23:04.913 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-01-10 21:23:04.913 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-10 21:23:04.913 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-01-10 21:23:05.043 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-10 21:23:05.043 +05:30 [INF] Hosting environment: Development
+2025-01-10 21:23:05.043 +05:30 [INF] Content root path: F:\Rahul_Data\.Net_sessions\Project\MagicVilla\MagicVilla_Api_Udemy
+2025-01-10 21:23:05.043 +05:30 [DBG] Hosting started
+2025-01-10 21:23:05.237 +05:30 [DBG] Connection id "0HN9HHRFFFFOB" accepted.
+2025-01-10 21:23:05.238 +05:30 [DBG] Connection id "0HN9HHRFFFFOB" started.
+2025-01-10 21:23:05.242 +05:30 [DBG] Connection id "0HN9HHRFFFFOC" accepted.
+2025-01-10 21:23:05.242 +05:30 [DBG] Connection id "0HN9HHRFFFFOC" started.
+2025-01-10 21:23:05.275 +05:30 [DBG] Connection id "0HN9HHRFFFFOB" received FIN.
+2025-01-10 21:23:05.275 +05:30 [DBG] Connection id "0HN9HHRFFFFOC" received FIN.
+2025-01-10 21:23:05.300 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-10 21:23:05.314 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-10 21:23:05.468 +05:30 [DBG] Connection id "0HN9HHRFFFFOB" stopped.
+2025-01-10 21:23:05.469 +05:30 [DBG] Connection id "0HN9HHRFFFFOC" stopped.
+2025-01-10 21:23:05.476 +05:30 [DBG] Connection id "0HN9HHRFFFFOB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:23:05.476 +05:30 [DBG] Connection id "0HN9HHRFFFFOC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:23:05.544 +05:30 [DBG] Connection id "0HN9HHRFFFFOD" accepted.
+2025-01-10 21:23:05.556 +05:30 [DBG] Connection id "0HN9HHRFFFFOD" started.
+2025-01-10 21:23:05.643 +05:30 [DBG] Connection 0HN9HHRFFFFOD established using the following protocol: "Tls12"
+2025-01-10 21:23:05.745 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/index.html - null null
+2025-01-10 21:23:05.918 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-10 21:23:05.938 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-01-10 21:23:05.938 +05:30 [DBG] Request did not match any endpoints
+2025-01-10 21:23:06.022 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-10 21:23:06.024 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-10 21:23:06.070 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-10 21:23:06.071 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-10 21:23:06.074 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/index.html - 200 null text/html;charset=utf-8 337.5057ms
+2025-01-10 21:23:06.130 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-10 21:23:06.149 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2025-01-10 21:23:06.153 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 23.4175ms
+2025-01-10 21:23:06.656 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 507.4521ms
+2025-01-10 21:23:06.772 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2025-01-10 21:23:06.772 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-01-10 21:23:06.772 +05:30 [DBG] Request did not match any endpoints
+2025-01-10 21:23:07.026 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 254.9764ms
+2025-01-10 21:23:16.358 +05:30 [DBG] Connection id "0HN9HHRFFFFOD" received FIN.
+2025-01-10 21:23:16.359 +05:30 [DBG] The connection queue processing loop for 0HN9HHRFFFFOD completed.
+2025-01-10 21:23:16.361 +05:30 [DBG] Connection id "0HN9HHRFFFFOD" is closed. The last processed stream ID was 7.
+2025-01-10 21:23:16.361 +05:30 [DBG] Connection id "0HN9HHRFFFFOD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:23:16.366 +05:30 [DBG] Connection id "0HN9HHRFFFFOD" stopped.
+2025-01-10 21:23:28.388 +05:30 [DBG] Connection id "0HN9HHRFFFFOE" accepted.
+2025-01-10 21:23:28.389 +05:30 [DBG] Connection id "0HN9HHRFFFFOE" started.
+2025-01-10 21:23:28.396 +05:30 [DBG] Connection 0HN9HHRFFFFOE established using the following protocol: "Tls12"
+2025-01-10 21:23:28.401 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/userAuth/registration - application/json 94
+2025-01-10 21:23:28.412 +05:30 [DBG] 1 candidate(s) found for the request path '/api/userAuth/registration'
+2025-01-10 21:23:28.415 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)' with route pattern 'api/userAuth/registration' is valid for the request path '/api/userAuth/registration'
+2025-01-10 21:23:28.416 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)'
+2025-01-10 21:23:28.419 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-10 21:23:28.424 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)'
+2025-01-10 21:23:28.463 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO) on controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy).
+2025-01-10 21:23:28.465 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-10 21:23:28.465 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-10 21:23:28.467 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-10 21:23:28.467 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-10 21:23:28.467 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-10 21:23:28.474 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:23:28.759 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-01-10 21:23:28.795 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:23:28.815 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO' ...
+2025-01-10 21:23:28.818 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO' using the name '' in request data ...
+2025-01-10 21:23:28.820 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-01-10 21:23:28.828 +05:30 [DBG] Connection id "0HN9HHRFFFFOE", Request id "0HN9HHRFFFFOE:00000001": started reading request body.
+2025-01-10 21:23:28.828 +05:30 [DBG] Connection id "0HN9HHRFFFFOE", Request id "0HN9HHRFFFFOE:00000001": done reading request body.
+2025-01-10 21:23:28.834 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'
+2025-01-10 21:23:28.835 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'.
+2025-01-10 21:23:28.835 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'.
+2025-01-10 21:23:28.835 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO' ...
+2025-01-10 21:23:28.842 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'.
+2025-01-10 21:23:29.625 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 21:23:29.858 +05:30 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(x => x.Name == __username_0)'
+2025-01-10 21:23:30.071 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Email (string), 1], [Property: LocalUser.Name (string), 2], [Property: LocalUser.Password (string), 3], [Property: LocalUser.Role (string), 4] }
+        SELECT TOP(1) l.Id, l.Email, l.Name, l.Password, l.Role
+        FROM LocalUsers AS l
+        WHERE l.Name == @__username_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MagicVilla_Api_Udemy.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2025-01-10 21:23:30.100 +05:30 [DBG] Creating DbConnection.
+2025-01-10 21:23:30.178 +05:30 [DBG] Created DbConnection. (77ms).
+2025-01-10 21:23:30.179 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:23:30.646 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:23:30.648 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:23:30.651 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2025-01-10 21:23:30.661 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (13ms).
+2025-01-10 21:23:30.673 +05:30 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE [l].[Name] = @__username_0
+2025-01-10 21:23:30.743 +05:30 [INF] Executed DbCommand (77ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE [l].[Name] = @__username_0
+2025-01-10 21:23:30.761 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:23:30.779 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:23:30.786 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 38ms reading results.
+2025-01-10 21:23:30.787 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:23:30.792 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (4ms).
+2025-01-10 21:23:54.104 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy) in 25634.0592ms
+2025-01-10 21:23:54.106 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)'
+2025-01-10 21:23:54.108 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MagicVilla_Api_Udemy.Controllers.UsersController.Register(RegistrationRequestDTO model) in F:\Rahul_Data\.Net_sessions\Project\MagicVilla\MagicVilla_Api_Udemy\Controllers\UsersController.cs:line 45
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 21:23:54.140 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 21:23:54.146 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:23:54.149 +05:30 [DBG] Disposed connection to database '' on server '' (2ms).
+2025-01-10 21:23:54.149 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/userAuth/registration - 500 null text/plain; charset=utf-8 25748.0528ms
+2025-01-10 21:23:56.427 +05:30 [DBG] Connection id "0HN9HHRFFFFOE" received FIN.
+2025-01-10 21:23:56.427 +05:30 [DBG] Connection id "0HN9HHRFFFFOE" is closed. The last processed stream ID was 1.
+2025-01-10 21:23:56.427 +05:30 [DBG] Connection id "0HN9HHRFFFFOE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:23:56.428 +05:30 [DBG] The connection queue processing loop for 0HN9HHRFFFFOE completed.
+2025-01-10 21:23:56.428 +05:30 [DBG] Connection id "0HN9HHRFFFFOE" stopped.
+2025-01-10 21:24:26.064 +05:30 [DBG] Connection id "0HN9HHRFFFFOF" accepted.
+2025-01-10 21:24:26.065 +05:30 [DBG] Connection id "0HN9HHRFFFFOF" started.
+2025-01-10 21:24:26.068 +05:30 [DBG] Connection 0HN9HHRFFFFOF established using the following protocol: "Tls12"
+2025-01-10 21:24:26.069 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/userAuth/login - application/json 45
+2025-01-10 21:24:26.072 +05:30 [DBG] 1 candidate(s) found for the request path '/api/userAuth/login'
+2025-01-10 21:24:26.072 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)' with route pattern 'api/userAuth/login' is valid for the request path '/api/userAuth/login'
+2025-01-10 21:24:26.072 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:24:26.073 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-10 21:24:26.073 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:24:26.085 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO) on controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy).
+2025-01-10 21:24:26.086 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-10 21:24:26.087 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-10 21:24:26.087 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-10 21:24:26.087 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-10 21:24:26.087 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-10 21:24:26.087 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:24:26.088 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:24:26.089 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:24:26.089 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' using the name '' in request data ...
+2025-01-10 21:24:26.089 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-01-10 21:24:26.089 +05:30 [DBG] Connection id "0HN9HHRFFFFOF", Request id "0HN9HHRFFFFOF:00000001": started reading request body.
+2025-01-10 21:24:26.089 +05:30 [DBG] Connection id "0HN9HHRFFFFOF", Request id "0HN9HHRFFFFOF:00000001": done reading request body.
+2025-01-10 21:24:26.090 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'
+2025-01-10 21:24:26.090 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:24:26.090 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:24:26.090 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:24:26.091 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:24:26.682 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 21:24:26.693 +05:30 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(u => u.Name.ToLower() == __ToLower_0 && u.Password == __loginRequestDto_Password_1)'
+2025-01-10 21:24:26.737 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Email (string), 1], [Property: LocalUser.Name (string), 2], [Property: LocalUser.Password (string), 3], [Property: LocalUser.Role (string), 4] }
+        SELECT TOP(1) l.Id, l.Email, l.Name, l.Password, l.Role
+        FROM LocalUsers AS l
+        WHERE (LOWER(l.Name) == @__ToLower_0) && (l.Password == @__loginRequestDto_Password_1)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MagicVilla_Api_Udemy.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2025-01-10 21:24:26.743 +05:30 [DBG] Creating DbConnection.
+2025-01-10 21:24:26.744 +05:30 [DBG] Created DbConnection. (0ms).
+2025-01-10 21:24:26.744 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:24:26.745 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:24:26.745 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:24:26.745 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:24:26.745 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:24:26.745 +05:30 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:24:26.757 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:24:26.758 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:24:26.758 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:24:26.758 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 0ms reading results.
+2025-01-10 21:24:26.758 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:24:26.758 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 21:24:31.132 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy) in 5045.2773ms
+2025-01-10 21:24:31.133 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:24:31.134 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MagicVilla_Api_Udemy.Controllers.UsersController.Login(LoginRequestDTO model) in F:\Rahul_Data\.Net_sessions\Project\MagicVilla\MagicVilla_Api_Udemy\Controllers\UsersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 21:24:31.135 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 21:24:31.135 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:24:31.135 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-01-10 21:24:31.136 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/userAuth/login - 500 null text/plain; charset=utf-8 5066.227ms
+2025-01-10 21:24:36.462 +05:30 [DBG] Connection id "0HN9HHRFFFFOF" received FIN.
+2025-01-10 21:24:36.462 +05:30 [DBG] Connection id "0HN9HHRFFFFOF" is closed. The last processed stream ID was 1.
+2025-01-10 21:24:36.462 +05:30 [DBG] Connection id "0HN9HHRFFFFOF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:24:36.462 +05:30 [DBG] The connection queue processing loop for 0HN9HHRFFFFOF completed.
+2025-01-10 21:24:36.462 +05:30 [DBG] Connection id "0HN9HHRFFFFOF" stopped.
+2025-01-10 21:28:54.448 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-10 21:28:54.538 +05:30 [DBG] Hosting starting
+2025-01-10 21:28:54.825 +05:30 [INF] Now listening on: https://localhost:7001
+2025-01-10 21:28:54.825 +05:30 [INF] Now listening on: http://localhost:5036
+2025-01-10 21:28:54.825 +05:30 [DBG] Loaded hosting startup assembly MagicVilla_Api_Udemy
+2025-01-10 21:28:54.825 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-01-10 21:28:54.825 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-10 21:28:54.825 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-01-10 21:28:54.869 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-10 21:28:54.870 +05:30 [INF] Hosting environment: Development
+2025-01-10 21:28:54.870 +05:30 [INF] Content root path: F:\Rahul_Data\.Net_sessions\Project\MagicVilla\MagicVilla_Api_Udemy
+2025-01-10 21:28:54.870 +05:30 [DBG] Hosting started
+2025-01-10 21:28:55.030 +05:30 [DBG] Connection id "0HN9HHUNNBI24" accepted.
+2025-01-10 21:28:55.030 +05:30 [DBG] Connection id "0HN9HHUNNBI23" accepted.
+2025-01-10 21:28:55.031 +05:30 [DBG] Connection id "0HN9HHUNNBI23" started.
+2025-01-10 21:28:55.031 +05:30 [DBG] Connection id "0HN9HHUNNBI24" started.
+2025-01-10 21:28:55.055 +05:30 [DBG] Connection id "0HN9HHUNNBI23" received FIN.
+2025-01-10 21:28:55.055 +05:30 [DBG] Connection id "0HN9HHUNNBI24" received FIN.
+2025-01-10 21:28:55.065 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-10 21:28:55.065 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-10 21:28:55.125 +05:30 [DBG] Connection id "0HN9HHUNNBI23" stopped.
+2025-01-10 21:28:55.126 +05:30 [DBG] Connection id "0HN9HHUNNBI24" stopped.
+2025-01-10 21:28:55.138 +05:30 [DBG] Connection id "0HN9HHUNNBI24" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:28:55.138 +05:30 [DBG] Connection id "0HN9HHUNNBI23" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:28:55.409 +05:30 [DBG] Connection id "0HN9HHUNNBI25" accepted.
+2025-01-10 21:28:55.414 +05:30 [DBG] Connection id "0HN9HHUNNBI25" started.
+2025-01-10 21:28:55.542 +05:30 [DBG] Connection 0HN9HHUNNBI25 established using the following protocol: "Tls12"
+2025-01-10 21:28:55.670 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/index.html - null null
+2025-01-10 21:28:55.942 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-10 21:28:55.989 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-01-10 21:28:55.990 +05:30 [DBG] Request did not match any endpoints
+2025-01-10 21:28:56.188 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-10 21:28:56.190 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-10 21:28:56.272 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-10 21:28:56.275 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-10 21:28:56.282 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/index.html - 200 null text/html;charset=utf-8 621.0332ms
+2025-01-10 21:28:56.321 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-10 21:28:56.322 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2025-01-10 21:28:56.334 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 13.3371ms
+2025-01-10 21:28:56.736 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 414.1698ms
+2025-01-10 21:28:56.820 +05:30 [DBG] Connection id "0HN9HHUNNBI25" received FIN.
+2025-01-10 21:28:56.824 +05:30 [DBG] The connection queue processing loop for 0HN9HHUNNBI25 completed.
+2025-01-10 21:28:56.832 +05:30 [DBG] Connection id "0HN9HHUNNBI26" accepted.
+2025-01-10 21:28:56.832 +05:30 [DBG] Connection id "0HN9HHUNNBI26" started.
+2025-01-10 21:28:56.836 +05:30 [DBG] Connection 0HN9HHUNNBI26 established using the following protocol: "Tls12"
+2025-01-10 21:28:56.838 +05:30 [DBG] Connection id "0HN9HHUNNBI25" is closed. The last processed stream ID was 5.
+2025-01-10 21:28:56.839 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2025-01-10 21:28:56.839 +05:30 [DBG] Connection id "0HN9HHUNNBI25" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:28:56.840 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-01-10 21:28:56.840 +05:30 [DBG] Request did not match any endpoints
+2025-01-10 21:28:56.850 +05:30 [DBG] Connection id "0HN9HHUNNBI25" stopped.
+2025-01-10 21:28:56.968 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 129.6422ms
+2025-01-10 21:29:06.839 +05:30 [DBG] Connection id "0HN9HHUNNBI26" received FIN.
+2025-01-10 21:29:06.840 +05:30 [DBG] Connection id "0HN9HHUNNBI26" is closed. The last processed stream ID was 1.
+2025-01-10 21:29:06.840 +05:30 [DBG] Connection id "0HN9HHUNNBI26" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:29:06.840 +05:30 [DBG] The connection queue processing loop for 0HN9HHUNNBI26 completed.
+2025-01-10 21:29:06.840 +05:30 [DBG] Connection id "0HN9HHUNNBI26" stopped.
+2025-01-10 21:29:22.332 +05:30 [DBG] Connection id "0HN9HHUNNBI27" accepted.
+2025-01-10 21:29:22.333 +05:30 [DBG] Connection id "0HN9HHUNNBI27" started.
+2025-01-10 21:29:22.342 +05:30 [DBG] Connection 0HN9HHUNNBI27 established using the following protocol: "Tls12"
+2025-01-10 21:29:22.344 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/userAuth/registration - application/json 89
+2025-01-10 21:29:22.355 +05:30 [DBG] 1 candidate(s) found for the request path '/api/userAuth/registration'
+2025-01-10 21:29:22.360 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)' with route pattern 'api/userAuth/registration' is valid for the request path '/api/userAuth/registration'
+2025-01-10 21:29:22.361 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)'
+2025-01-10 21:29:22.364 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-10 21:29:22.367 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)'
+2025-01-10 21:29:22.397 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO) on controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy).
+2025-01-10 21:29:22.398 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-10 21:29:22.398 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-10 21:29:22.398 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-10 21:29:22.399 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-10 21:29:22.399 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-10 21:29:22.400 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:29:22.732 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-01-10 21:29:22.752 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:29:22.766 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO' ...
+2025-01-10 21:29:22.768 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO' using the name '' in request data ...
+2025-01-10 21:29:22.769 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-01-10 21:29:22.777 +05:30 [DBG] Connection id "0HN9HHUNNBI27", Request id "0HN9HHUNNBI27:00000001": started reading request body.
+2025-01-10 21:29:22.777 +05:30 [DBG] Connection id "0HN9HHUNNBI27", Request id "0HN9HHUNNBI27:00000001": done reading request body.
+2025-01-10 21:29:22.781 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'
+2025-01-10 21:29:22.781 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'.
+2025-01-10 21:29:22.781 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'.
+2025-01-10 21:29:22.781 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO' ...
+2025-01-10 21:29:22.786 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'.
+2025-01-10 21:29:23.532 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 21:29:23.754 +05:30 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(x => x.Name == __username_0)'
+2025-01-10 21:29:23.999 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Email (string), 1], [Property: LocalUser.Name (string), 2], [Property: LocalUser.Password (string), 3], [Property: LocalUser.Role (string), 4] }
+        SELECT TOP(1) l.Id, l.Email, l.Name, l.Password, l.Role
+        FROM LocalUsers AS l
+        WHERE l.Name == @__username_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MagicVilla_Api_Udemy.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2025-01-10 21:29:24.039 +05:30 [DBG] Creating DbConnection.
+2025-01-10 21:29:24.152 +05:30 [DBG] Created DbConnection. (112ms).
+2025-01-10 21:29:24.156 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:29:24.742 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:29:24.745 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:29:24.748 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2025-01-10 21:29:24.756 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (11ms).
+2025-01-10 21:29:24.762 +05:30 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE [l].[Name] = @__username_0
+2025-01-10 21:29:24.828 +05:30 [INF] Executed DbCommand (62ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE [l].[Name] = @__username_0
+2025-01-10 21:29:24.833 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:29:24.841 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 8ms reading results.
+2025-01-10 21:29:24.843 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:29:24.849 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (5ms).
+2025-01-10 21:29:24.873 +05:30 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'LocalUser.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:29:24.917 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:29:24.922 +05:30 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2025-01-10 21:29:24.926 +05:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2025-01-10 21:29:24.937 +05:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2025-01-10 21:29:25.020 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:29:25.023 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:29:25.028 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:29:25.028 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:29:25.028 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:29:25.028 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [LocalUsers] ([Email], [Name], [Password], [Role])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-10 21:29:25.046 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [LocalUsers] ([Email], [Name], [Password], [Role])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-10 21:29:25.062 +05:30 [DBG] The foreign key property 'LocalUser.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-01-10 21:29:25.070 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:29:25.072 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 25ms reading results.
+2025-01-10 21:29:25.074 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:29:25.075 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 21:29:25.084 +05:30 [DBG] An entity of type 'LocalUser' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:29:25.085 +05:30 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2025-01-10 21:29:25.090 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-01-10 21:29:25.091 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-01-10 21:29:25.091 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-10 21:29:25.091 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-10 21:29:25.092 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-10 21:29:25.092 +05:30 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_Api_Udemy.Models.APIResponse'.
+2025-01-10 21:29:25.101 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy) in 2699.4871ms
+2025-01-10 21:29:25.101 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)'
+2025-01-10 21:29:25.104 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 21:29:25.107 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:29:25.108 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-01-10 21:29:25.109 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/userAuth/registration - 200 null application/json; charset=utf-8 2765.0309ms
+2025-01-10 21:29:26.875 +05:30 [DBG] Connection id "0HN9HHUNNBI27" received FIN.
+2025-01-10 21:29:26.875 +05:30 [DBG] Connection id "0HN9HHUNNBI27" is closed. The last processed stream ID was 1.
+2025-01-10 21:29:26.875 +05:30 [DBG] Connection id "0HN9HHUNNBI27" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:29:26.875 +05:30 [DBG] The connection queue processing loop for 0HN9HHUNNBI27 completed.
+2025-01-10 21:29:26.876 +05:30 [DBG] Connection id "0HN9HHUNNBI27" stopped.
+2025-01-10 21:32:12.429 +05:30 [DBG] Connection id "0HN9HHUNNBI28" accepted.
+2025-01-10 21:32:12.430 +05:30 [DBG] Connection id "0HN9HHUNNBI28" started.
+2025-01-10 21:32:12.441 +05:30 [DBG] Connection 0HN9HHUNNBI28 established using the following protocol: "Tls12"
+2025-01-10 21:32:12.442 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/userAuth/login - application/json 45
+2025-01-10 21:32:12.451 +05:30 [DBG] 1 candidate(s) found for the request path '/api/userAuth/login'
+2025-01-10 21:32:12.452 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)' with route pattern 'api/userAuth/login' is valid for the request path '/api/userAuth/login'
+2025-01-10 21:32:12.452 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:32:12.452 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-10 21:32:12.452 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:32:12.456 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO) on controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy).
+2025-01-10 21:32:12.456 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-10 21:32:12.456 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-10 21:32:12.456 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-10 21:32:12.456 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-10 21:32:12.456 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-10 21:32:12.456 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:32:12.457 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:32:12.457 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:32:12.457 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' using the name '' in request data ...
+2025-01-10 21:32:12.457 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-01-10 21:32:12.457 +05:30 [DBG] Connection id "0HN9HHUNNBI28", Request id "0HN9HHUNNBI28:00000001": started reading request body.
+2025-01-10 21:32:12.457 +05:30 [DBG] Connection id "0HN9HHUNNBI28", Request id "0HN9HHUNNBI28:00000001": done reading request body.
+2025-01-10 21:32:12.458 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'
+2025-01-10 21:32:12.458 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:32:12.458 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:32:12.458 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:32:12.459 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:32:12.790 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 21:32:12.800 +05:30 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(u => u.Name.ToLower() == __ToLower_0 && u.Password == __loginRequestDto_Password_1)'
+2025-01-10 21:32:12.824 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Email (string), 1], [Property: LocalUser.Name (string), 2], [Property: LocalUser.Password (string), 3], [Property: LocalUser.Role (string), 4] }
+        SELECT TOP(1) l.Id, l.Email, l.Name, l.Password, l.Role
+        FROM LocalUsers AS l
+        WHERE (LOWER(l.Name) == @__ToLower_0) && (l.Password == @__loginRequestDto_Password_1)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MagicVilla_Api_Udemy.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2025-01-10 21:32:12.828 +05:30 [DBG] Creating DbConnection.
+2025-01-10 21:32:12.828 +05:30 [DBG] Created DbConnection. (0ms).
+2025-01-10 21:32:12.828 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:32:12.829 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:32:12.829 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:32:12.829 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:32:12.829 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:32:12.829 +05:30 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:32:12.835 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:32:12.838 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:32:12.838 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:32:12.838 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 3ms reading results.
+2025-01-10 21:32:12.838 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:32:12.839 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 21:32:13.014 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-01-10 21:32:13.014 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-01-10 21:32:13.014 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-10 21:32:13.014 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-10 21:32:13.015 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-10 21:32:13.015 +05:30 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_Api_Udemy.Models.APIResponse'.
+2025-01-10 21:32:13.017 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy) in 561.4452ms
+2025-01-10 21:32:13.017 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:32:13.018 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 21:32:13.018 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:32:13.018 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-01-10 21:32:13.018 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/userAuth/login - 200 null application/json; charset=utf-8 576.4917ms
+2025-01-10 21:32:22.149 +05:30 [DBG] Connection id "0HN9HHUNNBI28" received FIN.
+2025-01-10 21:32:22.149 +05:30 [DBG] Connection id "0HN9HHUNNBI28" is closed. The last processed stream ID was 1.
+2025-01-10 21:32:22.149 +05:30 [DBG] Connection id "0HN9HHUNNBI28" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:32:22.149 +05:30 [DBG] The connection queue processing loop for 0HN9HHUNNBI28 completed.
+2025-01-10 21:32:22.164 +05:30 [DBG] Connection id "0HN9HHUNNBI28" stopped.
+2025-01-10 21:33:36.624 +05:30 [DBG] Connection id "0HN9HHUNNBI29" accepted.
+2025-01-10 21:33:36.625 +05:30 [DBG] Connection id "0HN9HHUNNBI29" started.
+2025-01-10 21:33:36.644 +05:30 [DBG] Connection 0HN9HHUNNBI29 established using the following protocol: "Tls12"
+2025-01-10 21:33:36.649 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/userAuth/login - application/json 43
+2025-01-10 21:33:36.649 +05:30 [DBG] 1 candidate(s) found for the request path '/api/userAuth/login'
+2025-01-10 21:33:36.649 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)' with route pattern 'api/userAuth/login' is valid for the request path '/api/userAuth/login'
+2025-01-10 21:33:36.649 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:33:36.649 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-10 21:33:36.649 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:33:36.650 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO) on controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy).
+2025-01-10 21:33:36.650 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-10 21:33:36.650 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-10 21:33:36.650 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-10 21:33:36.650 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-10 21:33:36.650 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-10 21:33:36.650 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:33:36.654 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:33:36.654 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:33:36.654 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' using the name '' in request data ...
+2025-01-10 21:33:36.654 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-01-10 21:33:36.654 +05:30 [DBG] Connection id "0HN9HHUNNBI29", Request id "0HN9HHUNNBI29:00000001": started reading request body.
+2025-01-10 21:33:36.654 +05:30 [DBG] Connection id "0HN9HHUNNBI29", Request id "0HN9HHUNNBI29:00000001": done reading request body.
+2025-01-10 21:33:36.655 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'
+2025-01-10 21:33:36.655 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:33:36.655 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:33:36.655 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:33:36.655 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:33:36.718 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 21:33:36.723 +05:30 [DBG] Creating DbConnection.
+2025-01-10 21:33:36.724 +05:30 [DBG] Created DbConnection. (0ms).
+2025-01-10 21:33:36.724 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:33:36.724 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:33:36.724 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:33:36.724 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:33:36.724 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:33:36.724 +05:30 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:33:36.729 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:33:36.729 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:33:36.729 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 0ms reading results.
+2025-01-10 21:33:36.729 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:33:36.729 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 21:33:46.185 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy) in 9535.3325ms
+2025-01-10 21:33:46.186 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:33:46.187 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MagicVilla_Api_Udemy.Controllers.UsersController.Login(LoginRequestDTO model) in F:\Rahul_Data\.Net_sessions\Project\MagicVilla\MagicVilla_Api_Udemy\Controllers\UsersController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 21:33:46.223 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 21:33:46.223 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:33:46.223 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-01-10 21:33:46.223 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/userAuth/login - 500 null text/plain; charset=utf-8 9574.365ms
+2025-01-10 21:34:00.297 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/userAuth/login - application/json 43
+2025-01-10 21:34:00.297 +05:30 [DBG] 1 candidate(s) found for the request path '/api/userAuth/login'
+2025-01-10 21:34:00.297 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)' with route pattern 'api/userAuth/login' is valid for the request path '/api/userAuth/login'
+2025-01-10 21:34:00.297 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:34:00.297 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-10 21:34:00.329 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:34:00.329 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO) on controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy).
+2025-01-10 21:34:00.333 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-10 21:34:00.333 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-10 21:34:00.334 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-10 21:34:00.334 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-10 21:34:00.334 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-10 21:34:00.334 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:34:00.334 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:34:00.334 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:34:00.334 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' using the name '' in request data ...
+2025-01-10 21:34:00.334 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-01-10 21:34:00.334 +05:30 [DBG] Connection id "0HN9HHUNNBI29", Request id "0HN9HHUNNBI29:00000003": started reading request body.
+2025-01-10 21:34:00.334 +05:30 [DBG] Connection id "0HN9HHUNNBI29", Request id "0HN9HHUNNBI29:00000003": done reading request body.
+2025-01-10 21:34:00.334 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'
+2025-01-10 21:34:00.334 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:34:00.334 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:34:00.334 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:34:00.334 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:34:00.335 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 21:34:00.335 +05:30 [DBG] Creating DbConnection.
+2025-01-10 21:34:00.335 +05:30 [DBG] Created DbConnection. (0ms).
+2025-01-10 21:34:00.335 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:34:00.335 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:34:00.335 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:34:00.335 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:34:00.335 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:34:00.335 +05:30 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:34:00.337 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:34:00.337 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:34:00.337 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 0ms reading results.
+2025-01-10 21:34:00.337 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:34:00.337 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 21:34:10.889 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy) in 10555.4513ms
+2025-01-10 21:34:10.889 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:34:10.890 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MagicVilla_Api_Udemy.Controllers.UsersController.Login(LoginRequestDTO model) in F:\Rahul_Data\.Net_sessions\Project\MagicVilla\MagicVilla_Api_Udemy\Controllers\UsersController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 21:34:10.891 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 21:34:10.891 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:34:10.892 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-01-10 21:34:10.892 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/userAuth/login - 500 null text/plain; charset=utf-8 10597.7488ms
+2025-01-10 21:35:52.491 +05:30 [DBG] Connection id "0HN9HHUNNBI29" received FIN.
+2025-01-10 21:35:52.492 +05:30 [DBG] Connection id "0HN9HHUNNBI29" is closed. The last processed stream ID was 3.
+2025-01-10 21:35:52.492 +05:30 [DBG] Connection id "0HN9HHUNNBI29" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:35:52.497 +05:30 [DBG] The connection queue processing loop for 0HN9HHUNNBI29 completed.
+2025-01-10 21:35:52.500 +05:30 [DBG] Connection id "0HN9HHUNNBI29" stopped.
+2025-01-10 21:37:14.340 +05:30 [DBG] Connection id "0HN9HHUNNBI2A" accepted.
+2025-01-10 21:37:14.340 +05:30 [DBG] Connection id "0HN9HHUNNBI2A" started.
+2025-01-10 21:37:14.358 +05:30 [DBG] Connection 0HN9HHUNNBI2A established using the following protocol: "Tls12"
+2025-01-10 21:37:14.359 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/userAuth/login - application/json 45
+2025-01-10 21:37:14.359 +05:30 [DBG] 1 candidate(s) found for the request path '/api/userAuth/login'
+2025-01-10 21:37:14.359 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)' with route pattern 'api/userAuth/login' is valid for the request path '/api/userAuth/login'
+2025-01-10 21:37:14.359 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:37:14.359 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-10 21:37:14.359 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:37:14.359 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO) on controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy).
+2025-01-10 21:37:14.359 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-10 21:37:14.359 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-10 21:37:14.359 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-10 21:37:14.359 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-10 21:37:14.359 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-10 21:37:14.359 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:37:14.360 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:37:14.360 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:37:14.360 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' using the name '' in request data ...
+2025-01-10 21:37:14.360 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-01-10 21:37:14.360 +05:30 [DBG] Connection id "0HN9HHUNNBI2A", Request id "0HN9HHUNNBI2A:00000001": started reading request body.
+2025-01-10 21:37:14.360 +05:30 [DBG] Connection id "0HN9HHUNNBI2A", Request id "0HN9HHUNNBI2A:00000001": done reading request body.
+2025-01-10 21:37:14.360 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'
+2025-01-10 21:37:14.360 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:37:14.360 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:37:14.360 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:37:14.360 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:37:14.360 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 21:37:14.361 +05:30 [DBG] Creating DbConnection.
+2025-01-10 21:37:14.361 +05:30 [DBG] Created DbConnection. (0ms).
+2025-01-10 21:37:14.361 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:37:14.361 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:37:14.361 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:37:14.361 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:37:14.361 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:37:14.361 +05:30 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:37:14.365 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:37:14.365 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:37:14.365 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:37:14.366 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 0ms reading results.
+2025-01-10 21:37:14.366 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:37:14.366 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 21:37:14.366 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-01-10 21:37:14.366 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-01-10 21:37:14.366 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-10 21:37:14.366 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-10 21:37:14.366 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-10 21:37:14.366 +05:30 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_Api_Udemy.Models.APIResponse'.
+2025-01-10 21:37:14.367 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy) in 7.3512ms
+2025-01-10 21:37:14.367 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:37:14.367 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 21:37:14.367 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:37:14.367 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-01-10 21:37:14.367 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/userAuth/login - 200 null application/json; charset=utf-8 8.4267ms
+2025-01-10 21:37:22.575 +05:30 [DBG] Connection id "0HN9HHUNNBI2A" received FIN.
+2025-01-10 21:37:22.575 +05:30 [DBG] Connection id "0HN9HHUNNBI2A" is closed. The last processed stream ID was 1.
+2025-01-10 21:37:22.575 +05:30 [DBG] Connection id "0HN9HHUNNBI2A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:37:22.575 +05:30 [DBG] The connection queue processing loop for 0HN9HHUNNBI2A completed.
+2025-01-10 21:37:22.575 +05:30 [DBG] Connection id "0HN9HHUNNBI2A" stopped.
+2025-01-10 21:39:11.406 +05:30 [DBG] Connection id "0HN9HHUNNBI2B" accepted.
+2025-01-10 21:39:11.407 +05:30 [DBG] Connection id "0HN9HHUNNBI2B" started.
+2025-01-10 21:39:11.418 +05:30 [DBG] Connection 0HN9HHUNNBI2B established using the following protocol: "Tls12"
+2025-01-10 21:39:11.424 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/userAuth/login - application/json 43
+2025-01-10 21:39:11.425 +05:30 [DBG] 1 candidate(s) found for the request path '/api/userAuth/login'
+2025-01-10 21:39:11.425 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)' with route pattern 'api/userAuth/login' is valid for the request path '/api/userAuth/login'
+2025-01-10 21:39:11.425 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:39:11.425 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-10 21:39:11.426 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:39:11.427 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO) on controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy).
+2025-01-10 21:39:11.427 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-10 21:39:11.427 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-10 21:39:11.427 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-10 21:39:11.427 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-10 21:39:11.427 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-10 21:39:11.427 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:39:11.427 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:39:11.427 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:39:11.428 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' using the name '' in request data ...
+2025-01-10 21:39:11.428 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-01-10 21:39:11.428 +05:30 [DBG] Connection id "0HN9HHUNNBI2B", Request id "0HN9HHUNNBI2B:00000001": started reading request body.
+2025-01-10 21:39:11.428 +05:30 [DBG] Connection id "0HN9HHUNNBI2B", Request id "0HN9HHUNNBI2B:00000001": done reading request body.
+2025-01-10 21:39:11.428 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'
+2025-01-10 21:39:11.428 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:39:11.428 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:39:11.428 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:39:11.428 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:39:14.021 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 21:39:14.021 +05:30 [DBG] Creating DbConnection.
+2025-01-10 21:39:14.021 +05:30 [DBG] Created DbConnection. (0ms).
+2025-01-10 21:39:14.021 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:39:14.022 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:39:14.022 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:39:14.022 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:39:14.022 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:39:14.022 +05:30 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:39:14.029 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:39:14.029 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:39:14.029 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 0ms reading results.
+2025-01-10 21:39:14.029 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:39:14.029 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 21:39:34.872 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy) in 23444.7111ms
+2025-01-10 21:39:34.872 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:39:34.873 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MagicVilla_Api_Udemy.Controllers.UsersController.Login(LoginRequestDTO model) in F:\Rahul_Data\.Net_sessions\Project\MagicVilla\MagicVilla_Api_Udemy\Controllers\UsersController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 21:39:34.874 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 21:39:34.874 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:39:34.874 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-01-10 21:39:34.874 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/userAuth/login - 500 null text/plain; charset=utf-8 23450.1916ms
+2025-01-10 21:40:07.816 +05:30 [DBG] Connection id "0HN9HHUNNBI2B" received FIN.
+2025-01-10 21:40:07.816 +05:30 [DBG] Connection id "0HN9HHUNNBI2B" is closed. The last processed stream ID was 1.
+2025-01-10 21:40:07.816 +05:30 [DBG] Connection id "0HN9HHUNNBI2B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:40:07.816 +05:30 [DBG] The connection queue processing loop for 0HN9HHUNNBI2B completed.
+2025-01-10 21:40:07.816 +05:30 [DBG] Connection id "0HN9HHUNNBI2B" stopped.
+2025-01-10 21:43:38.318 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-10 21:43:38.446 +05:30 [DBG] Hosting starting
+2025-01-10 21:43:38.697 +05:30 [INF] Now listening on: https://localhost:7001
+2025-01-10 21:43:38.697 +05:30 [INF] Now listening on: http://localhost:5036
+2025-01-10 21:43:38.697 +05:30 [DBG] Loaded hosting startup assembly MagicVilla_Api_Udemy
+2025-01-10 21:43:38.697 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-01-10 21:43:38.697 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-10 21:43:38.697 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-01-10 21:43:38.768 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-10 21:43:38.768 +05:30 [INF] Hosting environment: Development
+2025-01-10 21:43:38.768 +05:30 [INF] Content root path: F:\Rahul_Data\.Net_sessions\Project\MagicVilla\MagicVilla_Api_Udemy
+2025-01-10 21:43:38.769 +05:30 [DBG] Hosting started
+2025-01-10 21:43:39.112 +05:30 [DBG] Connection id "0HN9HI6V6K5O3" accepted.
+2025-01-10 21:43:39.114 +05:30 [DBG] Connection id "0HN9HI6V6K5O3" started.
+2025-01-10 21:43:39.117 +05:30 [DBG] Connection id "0HN9HI6V6K5O4" accepted.
+2025-01-10 21:43:39.118 +05:30 [DBG] Connection id "0HN9HI6V6K5O4" started.
+2025-01-10 21:43:39.135 +05:30 [DBG] Connection id "0HN9HI6V6K5O3" received FIN.
+2025-01-10 21:43:39.135 +05:30 [DBG] Connection id "0HN9HI6V6K5O4" received FIN.
+2025-01-10 21:43:39.145 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-10 21:43:39.145 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-10 21:43:39.230 +05:30 [DBG] Connection id "0HN9HI6V6K5O3" stopped.
+2025-01-10 21:43:39.230 +05:30 [DBG] Connection id "0HN9HI6V6K5O4" stopped.
+2025-01-10 21:43:39.241 +05:30 [DBG] Connection id "0HN9HI6V6K5O3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:43:39.241 +05:30 [DBG] Connection id "0HN9HI6V6K5O4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:43:39.641 +05:30 [DBG] Connection id "0HN9HI6V6K5O5" accepted.
+2025-01-10 21:43:39.643 +05:30 [DBG] Connection id "0HN9HI6V6K5O5" started.
+2025-01-10 21:43:39.731 +05:30 [DBG] Connection 0HN9HI6V6K5O5 established using the following protocol: "Tls12"
+2025-01-10 21:43:39.858 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/index.html - null null
+2025-01-10 21:43:40.063 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-10 21:43:40.104 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-01-10 21:43:40.106 +05:30 [DBG] Request did not match any endpoints
+2025-01-10 21:43:40.261 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-10 21:43:40.263 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-10 21:43:40.310 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-10 21:43:40.312 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-10 21:43:40.325 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/index.html - 200 null text/html;charset=utf-8 476.8308ms
+2025-01-10 21:43:40.354 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2025-01-10 21:43:40.354 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-10 21:43:40.368 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 14.8456ms
+2025-01-10 21:43:40.470 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 117.0711ms
+2025-01-10 21:43:40.728 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2025-01-10 21:43:40.728 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-01-10 21:43:40.728 +05:30 [DBG] Request did not match any endpoints
+2025-01-10 21:43:40.823 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.9794ms
+2025-01-10 21:43:48.177 +05:30 [DBG] Connection id "0HN9HI6V6K5O5" received FIN.
+2025-01-10 21:43:48.179 +05:30 [DBG] The connection queue processing loop for 0HN9HI6V6K5O5 completed.
+2025-01-10 21:43:48.182 +05:30 [DBG] Connection id "0HN9HI6V6K5O5" is closed. The last processed stream ID was 7.
+2025-01-10 21:43:48.182 +05:30 [DBG] Connection id "0HN9HI6V6K5O5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:43:48.192 +05:30 [DBG] Connection id "0HN9HI6V6K5O5" stopped.
+2025-01-10 21:43:52.865 +05:30 [DBG] Connection id "0HN9HI6V6K5O6" accepted.
+2025-01-10 21:43:52.866 +05:30 [DBG] Connection id "0HN9HI6V6K5O6" started.
+2025-01-10 21:43:52.885 +05:30 [DBG] Connection 0HN9HI6V6K5O6 established using the following protocol: "Tls12"
+2025-01-10 21:43:52.890 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/userAuth/login - application/json 45
+2025-01-10 21:43:52.901 +05:30 [DBG] 1 candidate(s) found for the request path '/api/userAuth/login'
+2025-01-10 21:43:52.904 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)' with route pattern 'api/userAuth/login' is valid for the request path '/api/userAuth/login'
+2025-01-10 21:43:52.905 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:43:52.909 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-10 21:43:52.913 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:43:52.950 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO) on controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy).
+2025-01-10 21:43:52.952 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-10 21:43:52.952 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-10 21:43:52.952 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-10 21:43:52.952 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-10 21:43:52.952 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-10 21:43:52.954 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:43:53.345 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-01-10 21:43:53.363 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:43:53.375 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:43:53.376 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' using the name '' in request data ...
+2025-01-10 21:43:53.377 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-01-10 21:43:53.382 +05:30 [DBG] Connection id "0HN9HI6V6K5O6", Request id "0HN9HI6V6K5O6:00000001": started reading request body.
+2025-01-10 21:43:53.382 +05:30 [DBG] Connection id "0HN9HI6V6K5O6", Request id "0HN9HI6V6K5O6:00000001": done reading request body.
+2025-01-10 21:43:53.385 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'
+2025-01-10 21:43:53.385 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:43:53.385 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:43:53.386 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:43:53.389 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:43:58.246 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 21:43:58.538 +05:30 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(u => u.Name.ToLower() == __ToLower_0 && u.Password == __loginRequestDto_Password_1)'
+2025-01-10 21:43:58.839 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Email (string), 1], [Property: LocalUser.Name (string), 2], [Property: LocalUser.Password (string), 3], [Property: LocalUser.Role (string), 4] }
+        SELECT TOP(1) l.Id, l.Email, l.Name, l.Password, l.Role
+        FROM LocalUsers AS l
+        WHERE (LOWER(l.Name) == @__ToLower_0) && (l.Password == @__loginRequestDto_Password_1)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MagicVilla_Api_Udemy.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2025-01-10 21:43:58.895 +05:30 [DBG] Creating DbConnection.
+2025-01-10 21:43:58.998 +05:30 [DBG] Created DbConnection. (102ms).
+2025-01-10 21:43:59.000 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:43:59.493 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:43:59.495 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:43:59.499 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2025-01-10 21:43:59.508 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (12ms).
+2025-01-10 21:43:59.516 +05:30 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:43:59.570 +05:30 [INF] Executed DbCommand (56ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:43:59.595 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:43:59.607 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 29ms reading results.
+2025-01-10 21:43:59.609 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:43:59.618 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (7ms).
+2025-01-10 21:44:07.903 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy) in 14947.6198ms
+2025-01-10 21:44:07.904 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:44:07.906 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MagicVilla_Api_Udemy.Controllers.UsersController.Login(LoginRequestDTO model) in F:\Rahul_Data\.Net_sessions\Project\MagicVilla\MagicVilla_Api_Udemy\Controllers\UsersController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 21:44:07.937 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 21:44:07.945 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:44:07.947 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-01-10 21:44:07.947 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/userAuth/login - 500 null text/plain; charset=utf-8 15057.3653ms
+2025-01-10 21:44:08.219 +05:30 [DBG] Connection id "0HN9HI6V6K5O6" received FIN.
+2025-01-10 21:44:08.219 +05:30 [DBG] Connection id "0HN9HI6V6K5O6" is closed. The last processed stream ID was 1.
+2025-01-10 21:44:08.219 +05:30 [DBG] The connection queue processing loop for 0HN9HI6V6K5O6 completed.
+2025-01-10 21:44:08.219 +05:30 [DBG] Connection id "0HN9HI6V6K5O6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:44:08.233 +05:30 [DBG] Connection id "0HN9HI6V6K5O6" stopped.
+2025-01-10 21:48:33.376 +05:30 [DBG] Connection id "0HN9HI6V6K5O7" accepted.
+2025-01-10 21:48:33.377 +05:30 [DBG] Connection id "0HN9HI6V6K5O7" started.
+2025-01-10 21:48:33.388 +05:30 [DBG] Connection 0HN9HI6V6K5O7 established using the following protocol: "Tls12"
+2025-01-10 21:48:33.394 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/userAuth/login - application/json 45
+2025-01-10 21:48:33.407 +05:30 [DBG] 1 candidate(s) found for the request path '/api/userAuth/login'
+2025-01-10 21:48:33.410 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)' with route pattern 'api/userAuth/login' is valid for the request path '/api/userAuth/login'
+2025-01-10 21:48:33.414 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:48:33.415 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-10 21:48:33.415 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:48:33.415 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO) on controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy).
+2025-01-10 21:48:33.416 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-10 21:48:33.416 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-10 21:48:33.416 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-10 21:48:33.416 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-10 21:48:33.416 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-10 21:48:33.416 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:48:33.418 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:48:33.418 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:48:33.419 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' using the name '' in request data ...
+2025-01-10 21:48:33.419 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-01-10 21:48:33.419 +05:30 [DBG] Connection id "0HN9HI6V6K5O7", Request id "0HN9HI6V6K5O7:00000001": started reading request body.
+2025-01-10 21:48:33.419 +05:30 [DBG] Connection id "0HN9HI6V6K5O7", Request id "0HN9HI6V6K5O7:00000001": done reading request body.
+2025-01-10 21:48:33.419 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'
+2025-01-10 21:48:33.419 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:48:33.419 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:48:33.419 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO' ...
+2025-01-10 21:48:33.419 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.LoginRequestDTO'.
+2025-01-10 21:48:33.439 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 21:48:33.444 +05:30 [DBG] Creating DbConnection.
+2025-01-10 21:48:33.445 +05:30 [DBG] Created DbConnection. (0ms).
+2025-01-10 21:48:33.445 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:48:33.447 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:48:33.447 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:48:33.447 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:48:33.447 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:48:33.447 +05:30 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:48:33.456 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDto_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[Name]) = @__ToLower_0 AND [l].[Password] = @__loginRequestDto_Password_1
+2025-01-10 21:48:33.489 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:48:33.505 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:48:33.506 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 49ms reading results.
+2025-01-10 21:48:33.506 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:48:33.506 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 21:48:33.727 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-01-10 21:48:33.729 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-01-10 21:48:33.729 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-10 21:48:33.729 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-10 21:48:33.731 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-10 21:48:33.731 +05:30 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_Api_Udemy.Models.APIResponse'.
+2025-01-10 21:48:33.742 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy) in 325.4879ms
+2025-01-10 21:48:33.742 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Login (MagicVilla_Api_Udemy)'
+2025-01-10 21:48:33.742 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 21:48:33.742 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:48:33.742 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-01-10 21:48:33.743 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/userAuth/login - 200 null application/json; charset=utf-8 348.9118ms
+2025-01-10 21:48:43.623 +05:30 [DBG] Connection id "0HN9HI6V6K5O7" received FIN.
+2025-01-10 21:48:43.624 +05:30 [DBG] Connection id "0HN9HI6V6K5O7" is closed. The last processed stream ID was 1.
+2025-01-10 21:48:43.624 +05:30 [DBG] Connection id "0HN9HI6V6K5O7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-10 21:48:43.624 +05:30 [DBG] The connection queue processing loop for 0HN9HI6V6K5O7 completed.
+2025-01-10 21:48:43.624 +05:30 [DBG] Connection id "0HN9HI6V6K5O7" stopped.
+2025-01-10 21:49:08.538 +05:30 [DBG] Connection id "0HN9HI6V6K5O8" accepted.
+2025-01-10 21:49:08.539 +05:30 [DBG] Connection id "0HN9HI6V6K5O8" started.
+2025-01-10 21:49:08.570 +05:30 [DBG] Connection 0HN9HI6V6K5O8 established using the following protocol: "Tls12"
+2025-01-10 21:49:08.572 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/userAuth/registration - application/json 95
+2025-01-10 21:49:08.573 +05:30 [DBG] 1 candidate(s) found for the request path '/api/userAuth/registration'
+2025-01-10 21:49:08.573 +05:30 [DBG] Endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)' with route pattern 'api/userAuth/registration' is valid for the request path '/api/userAuth/registration'
+2025-01-10 21:49:08.575 +05:30 [DBG] Request matched endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)'
+2025-01-10 21:49:08.576 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-10 21:49:08.578 +05:30 [INF] Executing endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)'
+2025-01-10 21:49:08.599 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO) on controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy).
+2025-01-10 21:49:08.599 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-10 21:49:08.599 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-10 21:49:08.599 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-10 21:49:08.600 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-10 21:49:08.600 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-10 21:49:08.600 +05:30 [DBG] Executing controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:49:08.601 +05:30 [DBG] Executed controller factory for controller MagicVilla_Api_Udemy.Controllers.UsersController (MagicVilla_Api_Udemy)
+2025-01-10 21:49:08.601 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO' ...
+2025-01-10 21:49:08.601 +05:30 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO' using the name '' in request data ...
+2025-01-10 21:49:08.601 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-01-10 21:49:08.602 +05:30 [DBG] Connection id "0HN9HI6V6K5O8", Request id "0HN9HI6V6K5O8:00000001": started reading request body.
+2025-01-10 21:49:08.602 +05:30 [DBG] Connection id "0HN9HI6V6K5O8", Request id "0HN9HI6V6K5O8:00000001": done reading request body.
+2025-01-10 21:49:08.603 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'
+2025-01-10 21:49:08.603 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'.
+2025-01-10 21:49:08.603 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'.
+2025-01-10 21:49:08.603 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO' ...
+2025-01-10 21:49:08.604 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_Api_Udemy.Models.DTO.RegistrationRequestDTO'.
+2025-01-10 21:49:08.657 +05:30 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-01-10 21:49:08.658 +05:30 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(x => x.Name == __username_0)'
+2025-01-10 21:49:08.663 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Email (string), 1], [Property: LocalUser.Name (string), 2], [Property: LocalUser.Password (string), 3], [Property: LocalUser.Role (string), 4] }
+        SELECT TOP(1) l.Id, l.Email, l.Name, l.Password, l.Role
+        FROM LocalUsers AS l
+        WHERE l.Name == @__username_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MagicVilla_Api_Udemy.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2025-01-10 21:49:08.663 +05:30 [DBG] Creating DbConnection.
+2025-01-10 21:49:08.663 +05:30 [DBG] Created DbConnection. (0ms).
+2025-01-10 21:49:08.663 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:49:08.663 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:49:08.663 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:49:08.663 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:49:08.664 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:49:08.664 +05:30 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE [l].[Name] = @__username_0
+2025-01-10 21:49:08.667 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[Name], [l].[Password], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE [l].[Name] = @__username_0
+2025-01-10 21:49:08.667 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:49:08.667 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 0ms reading results.
+2025-01-10 21:49:08.667 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:49:08.667 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 21:49:08.685 +05:30 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'LocalUser.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:49:08.696 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:49:08.701 +05:30 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2025-01-10 21:49:08.703 +05:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2025-01-10 21:49:08.710 +05:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2025-01-10 21:49:08.773 +05:30 [DBG] Opening connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:49:08.774 +05:30 [DBG] Opened connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:49:08.778 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-10 21:49:08.778 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:49:08.778 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-10 21:49:08.778 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [LocalUsers] ([Email], [Name], [Password], [Role])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-10 21:49:08.801 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [LocalUsers] ([Email], [Name], [Password], [Role])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-10 21:49:08.816 +05:30 [DBG] The foreign key property 'LocalUser.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-01-10 21:49:08.823 +05:30 [DBG] Closing data reader to 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:49:08.824 +05:30 [DBG] A data reader for 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' is being disposed after spending 23ms reading results.
+2025-01-10 21:49:08.826 +05:30 [DBG] Closing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:49:08.826 +05:30 [DBG] Closed connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V' (0ms).
+2025-01-10 21:49:08.835 +05:30 [DBG] An entity of type 'LocalUser' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-10 21:49:08.836 +05:30 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2025-01-10 21:49:08.838 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-01-10 21:49:08.838 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-01-10 21:49:08.838 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-10 21:49:08.838 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-10 21:49:08.838 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-10 21:49:08.838 +05:30 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_Api_Udemy.Models.APIResponse'.
+2025-01-10 21:49:08.839 +05:30 [INF] Executed action MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy) in 239.2955ms
+2025-01-10 21:49:08.839 +05:30 [INF] Executed endpoint 'MagicVilla_Api_Udemy.Controllers.UsersController.Register (MagicVilla_Api_Udemy)'
+2025-01-10 21:49:08.840 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-01-10 21:49:08.840 +05:30 [DBG] Disposing connection to database 'VillaApiUdemy' on server 'DESKTOP-EH14T7V'.
+2025-01-10 21:49:08.840 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-01-10 21:49:08.840 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/userAuth/registration - 200 null application/json; charset=utf-8 268.7254ms
