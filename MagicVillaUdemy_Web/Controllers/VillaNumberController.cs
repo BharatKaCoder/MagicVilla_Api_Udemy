@@ -80,6 +80,26 @@ namespace MagicVillaUdemy_Web.Controllers
                     return RedirectToAction(nameof(IndexVillaNumber));
                 }
             }
+
+            // To poplate dropdown option again
+
+            var response = await _villaService.GetAllAsync<APIResponse>();
+            if (response != null && response.Success)
+            {
+                var villaList = JsonConvert.DeserializeObject<List<VillaDTO>>(Convert.ToString(response.Result));
+                if (villaList != null && villaList.Any())
+                {
+                    model.VillaList = villaList.Select(x => new SelectListItem
+                    {
+                        Text = x.Name,
+                        Value = x.Id.ToString(),
+                    }).ToList(); // Convert to List<SelectListItem>
+                }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "No villas found.");
+                }
+            }
             return View(model);
         }
 

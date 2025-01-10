@@ -96,7 +96,7 @@ namespace MagicVilla_Api_Udemy.Controllers
             var villsList = await _villaRepository.GetAsync(u => u.Name.ToLower() == _createvillaDTO.Name.ToLower()) != null;
             if (villsList)
             {
-                ModelState.AddModelError("CustomError", "Villa already exist!");
+                ModelState.AddModelError("ErrorMessage", "Villa already exist!");
                 return BadRequest(ModelState);
             }
             if (_createvillaDTO == null)

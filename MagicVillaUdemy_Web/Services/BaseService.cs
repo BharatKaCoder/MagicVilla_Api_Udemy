@@ -56,8 +56,26 @@ namespace MagicVillaUdemy_Web.Services
                     throw new Exception($"API call failed with status code {apiResponse.StatusCode}: {errorContent}");
                 }
                 var ApiContent = await apiResponse.Content.ReadAsStringAsync();
+                try
+                {
+                    APIResponse ApiResponse = JsonConvert.DeserializeObject<APIResponse>(ApiContent);
+                    if(apiResponse.StatusCode==System.Net.HttpStatusCode.BadRequest || apiResponse.StatusCode == System.Net.HttpStatusCode.NotFound)
+                    {
+                        _ = ApiResponse.StatusCode == System.Net.HttpStatusCode.BadRequest;
+                        ApiResponse.Success = false;
+                        var res = JsonConvert.SerializeObject(ApiResponse);
+                        var returnObj = JsonConvert.DeserializeObject<T>(res);
+                        return returnObj;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    var ExResponse = JsonConvert.DeserializeObject<T>(ApiContent);
+                    return ExResponse;
+                }
                 var APIResponse = JsonConvert.DeserializeObject<T>(ApiContent);
                 return APIResponse;
+
             }
             catch (Exception ex)
             {

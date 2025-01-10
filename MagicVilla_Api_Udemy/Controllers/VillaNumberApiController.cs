@@ -96,12 +96,12 @@ namespace MagicVilla_Api_Udemy.Controllers
             var villsList = await _DbvillaNumber.GetNumberAsync(u => u.VillaNo == _createvillaDTO.VillaNo) != null;
             if (villsList)
             {
-                ModelState.AddModelError("CustomError", "Villa number already exist!");
+                ModelState.AddModelError("ErrorMessage", "Villa number already exist!");
                 return BadRequest(ModelState);
             }
             if(await _DbvillaRepo.GetAsync(x=>x.Id == _createvillaDTO.VillaID)== null)
                 {
-                    ModelState.AddModelError("CustomError", "Villa ID is invalid");
+                    ModelState.AddModelError("ErrorMessage", "Villa ID is invalid");
                     return BadRequest(ModelState);
                 }
             if (_createvillaDTO == null)
