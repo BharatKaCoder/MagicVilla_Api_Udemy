@@ -77,11 +77,13 @@ namespace MagicVillaUdemy_Web.Controllers
                 var Response = await _villaNumberService.CreateAsync<APIResponse>(model.VillaNumber);
                 if (Response != null && Response.Success)
                 {
+                    TempData["success"] = "VillaNumber updated successfully!";
                     return RedirectToAction(nameof(IndexVillaNumber));
                 } else
                 {
                     if(Response.ErrorMessage.Count > 0)
                     {
+                        TempData["error"] = "Something went wrong!";
                         ModelState.AddModelError("ErrorMessage",Response.ErrorMessage.FirstOrDefault());
                     }
                 }
@@ -103,6 +105,7 @@ namespace MagicVillaUdemy_Web.Controllers
                 }
                 else
                 {
+                    TempData["error"] = "Something went wrong!";
                     ModelState.AddModelError(string.Empty, "No villas found.");
                 }
             }
