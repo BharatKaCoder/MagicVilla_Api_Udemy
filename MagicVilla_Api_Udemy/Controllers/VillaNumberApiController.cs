@@ -3,6 +3,7 @@ using MagicVilla_Api_Udemy.Models;
 using MagicVilla_Api_Udemy.Models.DTO;
 using MagicVilla_Api_Udemy.Repository;
 using MagicVilla_Api_Udemy.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -85,6 +86,7 @@ namespace MagicVilla_Api_Udemy.Controllers
 
         // POST API start here
         [HttpPost]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -125,6 +127,7 @@ namespace MagicVilla_Api_Udemy.Controllers
 
         // DELETE API start here
         [HttpDelete]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

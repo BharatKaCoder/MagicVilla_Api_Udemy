@@ -3,6 +3,7 @@ using MagicVilla_Api_Udemy.Models;
 using MagicVilla_Api_Udemy.Models.DTO;
 using MagicVilla_Api_Udemy.Repository;
 using MagicVilla_Api_Udemy.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +16,10 @@ namespace MagicVilla_Api_Udemy.Controllers
     [ApiController]
     public class VillaApiController : ControllerBase
     {
+        private readonly string _secretKey = "Jwt:Key"; // Replace with the same key used in Program.cs
+        private readonly string _issuer = "Jwt:Issuer"; // Replace with your issuer
+        private readonly string _audience = "Jwt:Audience"; // Replace with your audience
+
         private readonly ILogger<VillaApiController> logger;
         private readonly ApplicationDbContext _dbContext;
         private readonly IVillaRepository _villaRepository;
@@ -85,6 +90,7 @@ namespace MagicVilla_Api_Udemy.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -134,6 +140,7 @@ namespace MagicVilla_Api_Udemy.Controllers
 
         // Update Villa Details
         [HttpPut("{id}")]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -173,8 +180,11 @@ namespace MagicVilla_Api_Udemy.Controllers
 
         // DELETE API start here
         [HttpDelete]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<APIResponse>> DeleteVillaNumber(int id)

@@ -16,7 +16,7 @@ namespace MagicVilla_Api_Udemy.Repository
         public UserRepository(ApplicationDbContext db, IConfiguration configuration)
         {
             _db = db;
-            SecretKey = configuration.GetValue<string>("ApiSetting:Secret");
+            SecretKey = configuration.GetValue<string>("Jwt:Key");
         }
         public bool IsUniqueUser(string username)
         {
