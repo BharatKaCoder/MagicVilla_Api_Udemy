@@ -1,0 +1,25 @@
+﻿@model MagicVillaUdemy_Web.Models.DTO.LoginRequestDTO
+
+<h1 class="text-center my-4">Login</h1>
+
+<form class="w-50 mx-auto" method="post">
+    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+    <div class="mb-3">
+        <label for="Name" class="form-label">Username</label>
+        <input asp-for="Name" class="form-control" type="text" id="Name" placeholder="Enter your username..." />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="Password" class="form-label">Password</label>
+        <input asp-for="Password" class="form-control" type="password" id="Password" placeholder="Enter your password..." />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Login</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -2,6 +2,7 @@ using System.Text;
 using MagicVilla_Api_Udemy;
 using MagicVilla_Api_Udemy.Repository;
 using MagicVilla_Api_Udemy.Repository.IRepository;
+using MagicVillaUdemy_Web.Services.IServices;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -11,7 +12,6 @@ var builder = WebApplication.CreateBuilder(args);
 var key = builder.Configuration.GetValue<string>("Jwt:Key");
 
 // Add services to the container.
-
 // This dependency injection for logger information.
 Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().WriteTo
     .File("api/villaLogs.txt", rollingInterval: RollingInterval.Day)
@@ -25,10 +25,19 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 
 // Injecting IRepository in DI
+builder.Services.AddHttpClient<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+builder.Services.AddHttpClient<IVillaRepository, IVillaRepository>();
 builder.Services.AddScoped<IVillaRepository, VillaRepository>();
+
+builder.Services.AddHttpClient<IVillaNumberRepository, IVillaNumberRepository>();
 builder.Services.AddScoped<IVillaNumberRepository, VillaNumberRepository>();
+
 // AutoMapping dependancy injection
+builder.Services.AddControllersWithViews();
 builder.Services.AddAutoMapper(typeof(MappingConfig));
 
 builder.Services.AddAuthentication(x =>
